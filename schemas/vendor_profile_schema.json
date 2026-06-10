@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "vendor_id": {},
+    "name": {},
+    "category": {},
+    "packaging_technologies": {},
+    "roadmap_claims": {},
+    "customers_public": {},
+    "Marvell_relationship": {},
+    "Marvell_relevance": {},
+    "competitive_threat": {},
+    "partnership_potential": {},
+    "acquisition_relevance": {},
+    "key_sources": {},
+    "key_figures": {},
+    "last_refreshed": {},
+    "next_suggested_refresh": {},
+    "confidence_level": {},
+    "open_questions": {}
+  },
+  "required": [
+    "vendor_id",
+    "name",
+    "category",
+    "packaging_technologies",
+    "roadmap_claims",
+    "customers_public",
+    "Marvell_relationship",
+    "Marvell_relevance",
+    "competitive_threat",
+    "partnership_potential",
+    "acquisition_relevance",
+    "key_sources",
+    "key_figures",
+    "last_refreshed",
+    "next_suggested_refresh",
+    "confidence_level",
+    "open_questions"
+  ],
+  "additionalProperties": true
+}

@@ -1,0 +1,985 @@
+{
+  "sources": [
+    {
+      "source_id": "SRC-MRVL-001",
+      "title": "Custom AI Investor Event",
+      "publisher": "Marvell",
+      "author": "Marvell leadership",
+      "date_published": "2025-06-17",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.marvell.com/content/dam/marvell/en/company/assets/marvell-custom-ai-investor-event-2025.pdf",
+      "source_type": "company presentation",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "Marvell",
+        "custom XPU",
+        "HBM",
+        "advanced packaging",
+        "CPO"
+      ],
+      "summary": "Marvell's most complete public description of its custom AI platform, packaging, HBM attach, XPU attach, SerDes and optical strategy.",
+      "key_extracted_facts": [
+        "Marvell's most complete public description of its custom AI platform, packaging, HBM attach, XPU attach, SerDes and optical strategy."
+      ],
+      "limitations_or_caveats": "Management claims and forward-looking market estimates require independent validation.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-MRVL-002",
+      "title": "224G Long-Range SerDes for Scale-up and Scale-inside",
+      "publisher": "Marvell",
+      "author": "Aatreya Chakravarti",
+      "date_published": "2026-05-26",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.marvell.com/blogs/224g-long-range-serdes-scale-up-scale-inside.html",
+      "source_type": "company technical blog",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "SerDes",
+        "CPO",
+        "copper",
+        "scale-up"
+      ],
+      "summary": "Reports a 3nm 224G long-reach SerDes demonstration, a 2.5 meter channel, and 4 pJ/bit company measurement.",
+      "key_extracted_facts": [
+        "Reports a 3nm 224G long-reach SerDes demonstration, a 2.5 meter channel, and 4 pJ/bit company measurement."
+      ],
+      "limitations_or_caveats": "Performance is a vendor demonstration and not an independent product benchmark.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-MRVL-003",
+      "title": "Solving AI's Three Big Problems Through Photonic Fabric Technology",
+      "publisher": "Marvell",
+      "author": "Marvell",
+      "date_published": "2026-05-13",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.marvell.com/blogs/solving-ai-problems-through-photonic-fabric-technology.html",
+      "source_type": "company technical blog",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "optical I/O",
+        "CPO",
+        "silicon photonics"
+      ],
+      "summary": "Explains Marvell's post-acquisition photonic fabric positioning for scale-up connectivity and memory disaggregation.",
+      "key_extracted_facts": [
+        "Explains Marvell's post-acquisition photonic fabric positioning for scale-up connectivity and memory disaggregation."
+      ],
+      "limitations_or_caveats": "Forward-looking architecture discussion; deployment timing is not independently confirmed.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-MRVL-004",
+      "title": "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion",
+      "publisher": "Marvell",
+      "author": "Marvell and NVIDIA",
+      "date_published": "2026-03-31",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.marvell.com/company/newsroom/nvidia-ai-ecosystem-expands-marvell-joins-forces-through-nvlink-fusion.html",
+      "source_type": "company press release",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "NVLink Fusion",
+        "custom XPU",
+        "silicon photonics"
+      ],
+      "summary": "Describes Marvell participation in NVLink Fusion and collaboration around custom silicon and connectivity.",
+      "key_extracted_facts": [
+        "Describes Marvell participation in NVLink Fusion and collaboration around custom silicon and connectivity."
+      ],
+      "limitations_or_caveats": "Partnership announcement does not disclose customer designs, revenue, or production timing.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-MRVL-005",
+      "title": "Marvell Newsroom",
+      "publisher": "Marvell",
+      "author": "Marvell",
+      "date_published": "2026-06-02",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.marvell.com/company/newsroom.html",
+      "source_type": "company newsroom",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "Marvell",
+        "switching",
+        "optics"
+      ],
+      "summary": "Current chronology of Marvell product, partnership and investor disclosures.",
+      "key_extracted_facts": [
+        "Current chronology of Marvell product, partnership and investor disclosures."
+      ],
+      "limitations_or_caveats": "Landing page changes over time; archive individual releases for durable refreshes.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-TSMC-001",
+      "title": "3DFabric: TSMC 3D Silicon Stacking and Advanced Packaging",
+      "publisher": "TSMC",
+      "author": "TSMC",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/3DFabric.htm",
+      "source_type": "company technology page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "CoWoS",
+        "SoIC",
+        "InFO",
+        "3DFabric"
+      ],
+      "summary": "Defines TSMC's integrated front-end and back-end 3DFabric portfolio.",
+      "key_extracted_facts": [
+        "Defines TSMC's integrated front-end and back-end 3DFabric portfolio."
+      ],
+      "limitations_or_caveats": "Product availability and dimensions vary by customer qualification and generation.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-TSMC-002",
+      "title": "TSMC 2024 Annual Report",
+      "publisher": "TSMC",
+      "author": "TSMC",
+      "date_published": "2025-03-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://investor.tsmc.com/english/annual-reports",
+      "source_type": "annual report",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "CoWoS",
+        "advanced packaging",
+        "capacity"
+      ],
+      "summary": "Primary financial and capacity context for TSMC advanced packaging investment.",
+      "key_extracted_facts": [
+        "Primary financial and capacity context for TSMC advanced packaging investment."
+      ],
+      "limitations_or_caveats": "Capacity disclosures are aggregated and do not provide customer-level allocation.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-TSMC-003",
+      "title": "TSMC 2025 Technology Symposium",
+      "publisher": "TSMC",
+      "author": "TSMC",
+      "date_published": "2025-04-23",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.tsmc.com/english/news-events/press-releases",
+      "source_type": "company event materials",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "CoWoS",
+        "SoIC",
+        "A16",
+        "COUPE"
+      ],
+      "summary": "Roadmap disclosures for logic, 3DFabric and silicon photonics integration.",
+      "key_extracted_facts": [
+        "Roadmap disclosures for logic, 3DFabric and silicon photonics integration."
+      ],
+      "limitations_or_caveats": "Some roadmap details are announced targets, not qualified production.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-TSMC-004",
+      "title": "TSMC Open Innovation Platform",
+      "publisher": "TSMC",
+      "author": "TSMC",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.tsmc.com/english/dedicatedFoundry/oip",
+      "source_type": "company ecosystem page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "EDA",
+        "chiplets",
+        "3DFabric"
+      ],
+      "summary": "Describes design enablement and ecosystem dependencies for complex multi-die products.",
+      "key_extracted_facts": [
+        "Describes design enablement and ecosystem dependencies for complex multi-die products."
+      ],
+      "limitations_or_caveats": "Does not disclose commercial terms or partner-specific readiness.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-JEDEC-001",
+      "title": "JESD270-4 High Bandwidth Memory 4",
+      "publisher": "JEDEC",
+      "author": "JEDEC",
+      "date_published": "2025-04-16",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.jedec.org/news/pressreleases/jedec-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard",
+      "source_type": "industry standard",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "HBM4",
+        "memory"
+      ],
+      "summary": "HBM4 standard doubles the interface width to 2,048 bits and defines higher capacity and bandwidth options.",
+      "key_extracted_facts": [
+        "HBM4 standard doubles the interface width to 2,048 bits and defines higher capacity and bandwidth options."
+      ],
+      "limitations_or_caveats": "Implementations may exceed baseline rates and differ in stack height, base die and thermals.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-JEDEC-002",
+      "title": "JESD238 HBM3 Standard",
+      "publisher": "JEDEC",
+      "author": "JEDEC",
+      "date_published": "2022-01-27",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.jedec.org/news/pressreleases/jedec-publishes-hbm3-update-high-bandwidth-memory-standard",
+      "source_type": "industry standard",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "HBM3",
+        "memory"
+      ],
+      "summary": "Primary specification context for HBM3 channel architecture and rates.",
+      "key_extracted_facts": [
+        "Primary specification context for HBM3 channel architecture and rates."
+      ],
+      "limitations_or_caveats": "Vendor HBM3E products extend beyond the original baseline.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-UCIE-001",
+      "title": "UCIe Consortium Releases 2.0 Specification",
+      "publisher": "UCIe Consortium",
+      "author": "UCIe Consortium",
+      "date_published": "2024-08-06",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.uciexpress.org/post/ucie-consortium-releases-2-0-specification",
+      "source_type": "industry standard",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "UCIe",
+        "chiplets",
+        "3D packaging"
+      ],
+      "summary": "Adds manageability, debug, test and support for 3D constructions.",
+      "key_extracted_facts": [
+        "Adds manageability, debug, test and support for 3D constructions."
+      ],
+      "limitations_or_caveats": "Interoperability depends on compliance programs and commercial IP maturity.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-UCIE-002",
+      "title": "UCIe Consortium Introduces 3.0 Specification",
+      "publisher": "UCIe Consortium",
+      "author": "UCIe Consortium",
+      "date_published": "2025-08-05",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.uciexpress.org/post/ucie-consortium-introduces-3-0-specification",
+      "source_type": "industry standard",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "UCIe",
+        "die-to-die"
+      ],
+      "summary": "Introduces 48 and 64 GT/s operation and manageability enhancements.",
+      "key_extracted_facts": [
+        "Introduces 48 and 64 GT/s operation and manageability enhancements."
+      ],
+      "limitations_or_caveats": "Specification availability precedes broad silicon interoperability.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-OIF-001",
+      "title": "Co-Packaging Framework Implementation Agreement",
+      "publisher": "OIF",
+      "author": "OIF",
+      "date_published": "2023-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.oiforum.com/technical-work/hot-topics/co-packaging/",
+      "source_type": "industry standard",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "CPO",
+        "external laser",
+        "optics"
+      ],
+      "summary": "Defines ecosystem considerations and interfaces for co-packaged optical modules.",
+      "key_extracted_facts": [
+        "Defines ecosystem considerations and interfaces for co-packaged optical modules."
+      ],
+      "limitations_or_caveats": "Framework adoption and product implementations remain vendor-specific.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-UALINK-001",
+      "title": "UALink 1.0 Specification and White Paper",
+      "publisher": "UALink Consortium",
+      "author": "UALink Consortium",
+      "date_published": "2025-04-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://ualinkconsortium.org/specifications/",
+      "source_type": "industry standard",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "UALink",
+        "scale-up"
+      ],
+      "summary": "Defines an open accelerator scale-up fabric targeting large AI pods.",
+      "key_extracted_facts": [
+        "Defines an open accelerator scale-up fabric targeting large AI pods."
+      ],
+      "limitations_or_caveats": "Commercial deployments and ecosystem depth are still developing.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-INTEL-001",
+      "title": "Advanced Packaging",
+      "publisher": "Intel Foundry",
+      "author": "Intel",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.intel.com/content/www/us/en/foundry/packaging.html",
+      "source_type": "company technology page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "EMIB",
+        "Foveros",
+        "Foveros Direct"
+      ],
+      "summary": "Describes Intel's embedded bridge and 3D stacking portfolio.",
+      "key_extracted_facts": [
+        "Describes Intel's embedded bridge and 3D stacking portfolio."
+      ],
+      "limitations_or_caveats": "External foundry availability differs from internal product deployment.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-INTEL-002",
+      "title": "Intel Unveils Industry-Leading Glass Substrates",
+      "publisher": "Intel",
+      "author": "Intel",
+      "date_published": "2023-09-18",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-unveils-industry-leading-glass-substrates.html",
+      "source_type": "company press release",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "glass substrate",
+        "packaging"
+      ],
+      "summary": "Describes glass-core substrate benefits and a late-decade introduction target.",
+      "key_extracted_facts": [
+        "Describes glass-core substrate benefits and a late-decade introduction target."
+      ],
+      "limitations_or_caveats": "Roadmap is a vendor target; ecosystem and cost readiness remain uncertain.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-INTEL-003",
+      "title": "Foveros Direct and EMIB Product Evidence",
+      "publisher": "Intel",
+      "author": "Intel",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.intel.com/content/www/us/en/products/docs/processors/xeon/xeon-6-overview.html",
+      "source_type": "product documentation",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "Foveros",
+        "EMIB",
+        "chiplets"
+      ],
+      "summary": "Provides product-level evidence of Intel multi-die packaging deployment.",
+      "key_extracted_facts": [
+        "Provides product-level evidence of Intel multi-die packaging deployment."
+      ],
+      "limitations_or_caveats": "Product packaging configurations do not imply merchant-foundry availability.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-SAMSUNG-001",
+      "title": "Advanced Package",
+      "publisher": "Samsung Semiconductor",
+      "author": "Samsung",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://semiconductor.samsung.com/foundry/advanced-package/",
+      "source_type": "company technology page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "I-Cube",
+        "X-Cube",
+        "fan-out"
+      ],
+      "summary": "Defines Samsung's 2.5D and 3D packaging portfolio.",
+      "key_extracted_facts": [
+        "Defines Samsung's 2.5D and 3D packaging portfolio."
+      ],
+      "limitations_or_caveats": "Limited public disclosure on customer ramps and comparative yields.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-SAMSUNG-002",
+      "title": "Samsung High Bandwidth Memory",
+      "publisher": "Samsung Semiconductor",
+      "author": "Samsung",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://semiconductor.samsung.com/dram/hbm/",
+      "source_type": "company product page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "HBM3E",
+        "HBM4"
+      ],
+      "summary": "Vendor roadmap and product positioning for HBM.",
+      "key_extracted_facts": [
+        "Vendor roadmap and product positioning for HBM."
+      ],
+      "limitations_or_caveats": "Qualification status is customer-specific and public detail is limited.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-SKH-001",
+      "title": "SK hynix Completes HBM4 Development and Readies Mass Production",
+      "publisher": "SK hynix",
+      "author": "SK hynix",
+      "date_published": "2025-09-12",
+      "date_accessed": "2026-06-10",
+      "url": "https://news.skhynix.com/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/",
+      "source_type": "company press release",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "HBM4",
+        "MR-MUF"
+      ],
+      "summary": "Reports HBM4 development status and vendor performance claims.",
+      "key_extracted_facts": [
+        "Reports HBM4 development status and vendor performance claims."
+      ],
+      "limitations_or_caveats": "Customer qualification and sustained volume yield are not disclosed.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-SKH-002",
+      "title": "HBM3E and Advanced MR-MUF Technology",
+      "publisher": "SK hynix",
+      "author": "SK hynix",
+      "date_published": "2024-09-26",
+      "date_accessed": "2026-06-10",
+      "url": "https://news.skhynix.com/sk-hynix-begins-mass-production-of-worlds-first-12-layer-hbm3e/",
+      "source_type": "company press release",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "HBM3E",
+        "thermal"
+      ],
+      "summary": "Describes 12-high HBM3E manufacturing and MR-MUF packaging.",
+      "key_extracted_facts": [
+        "Describes 12-high HBM3E manufacturing and MR-MUF packaging."
+      ],
+      "limitations_or_caveats": "Vendor claims require workload- and package-level qualification.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-MICRON-001",
+      "title": "Micron HBM3E Product Brief",
+      "publisher": "Micron",
+      "author": "Micron",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.micron.com/products/memory/hbm",
+      "source_type": "company product page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "HBM3E",
+        "HBM4"
+      ],
+      "summary": "Primary source for Micron HBM product capabilities and roadmap statements.",
+      "key_extracted_facts": [
+        "Primary source for Micron HBM product capabilities and roadmap statements."
+      ],
+      "limitations_or_caveats": "Roadmap timing and customer qualification can change.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-NVIDIA-001",
+      "title": "NVIDIA Blackwell Architecture",
+      "publisher": "NVIDIA",
+      "author": "NVIDIA",
+      "date_published": "2024-03-18",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/",
+      "source_type": "company product page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "AI accelerator",
+        "HBM3E",
+        "NVLink"
+      ],
+      "summary": "Product-level evidence of large multi-die accelerators, HBM and scale-up fabrics.",
+      "key_extracted_facts": [
+        "Product-level evidence of large multi-die accelerators, HBM and scale-up fabrics."
+      ],
+      "limitations_or_caveats": "NVIDIA system claims are vendor-specific and may not isolate packaging contribution.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-NVIDIA-002",
+      "title": "NVIDIA Announces Spectrum-X and Quantum-X Photonics",
+      "publisher": "NVIDIA",
+      "author": "NVIDIA",
+      "date_published": "2025-03-18",
+      "date_accessed": "2026-06-10",
+      "url": "https://nvidianews.nvidia.com/news/silicon-photonics-networking-switches-ai-factories",
+      "source_type": "company press release",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "CPO",
+        "silicon photonics",
+        "switching"
+      ],
+      "summary": "Announces silicon-photonics-based switch platforms and deployment targets.",
+      "key_extracted_facts": [
+        "Announces silicon-photonics-based switch platforms and deployment targets."
+      ],
+      "limitations_or_caveats": "Announced product timing and field serviceability require follow-up.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-AMD-001",
+      "title": "AMD Instinct MI300 Series",
+      "publisher": "AMD",
+      "author": "AMD",
+      "date_published": "2023-12-06",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+      "source_type": "company product page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "3D stacking",
+        "HBM3",
+        "chiplets"
+      ],
+      "summary": "Demonstrates production use of chiplets, 3D stacking and HBM in an AI accelerator.",
+      "key_extracted_facts": [
+        "Demonstrates production use of chiplets, 3D stacking and HBM in an AI accelerator."
+      ],
+      "limitations_or_caveats": "Architecture-specific metrics should not be generalized to all packaging options.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-BRCM-001",
+      "title": "Broadcom Enables Co-Packaged Optics Ecosystem",
+      "publisher": "Broadcom",
+      "author": "Broadcom",
+      "date_published": "2024-03-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.broadcom.com/company/news/product-releases",
+      "source_type": "company press release archive",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "CPO",
+        "switching",
+        "custom ASIC"
+      ],
+      "summary": "Primary source archive for Broadcom switch and CPO announcements.",
+      "key_extracted_facts": [
+        "Primary source archive for Broadcom switch and CPO announcements."
+      ],
+      "limitations_or_caveats": "Broadcom discloses limited custom ASIC customer and packaging detail.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-ASE-001",
+      "title": "VIPack Advanced Packaging Platform",
+      "publisher": "ASE",
+      "author": "ASE",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://ase.aseglobal.com/vipack/",
+      "source_type": "company technology page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "fan-out",
+        "bridge",
+        "3D packaging"
+      ],
+      "summary": "ASE's modular platform for high-density fan-out, bridge and 3D integration.",
+      "key_extracted_facts": [
+        "ASE's modular platform for high-density fan-out, bridge and 3D integration."
+      ],
+      "limitations_or_caveats": "Public process metrics and customer ramps are selective.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-AMKOR-001",
+      "title": "Advanced Packaging Solutions",
+      "publisher": "Amkor",
+      "author": "Amkor",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://amkor.com/technology/advanced-packaging/",
+      "source_type": "company technology page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "2.5D",
+        "fan-out",
+        "test"
+      ],
+      "summary": "Amkor portfolio and manufacturing context for advanced packaging.",
+      "key_extracted_facts": [
+        "Amkor portfolio and manufacturing context for advanced packaging."
+      ],
+      "limitations_or_caveats": "Application-specific capabilities require direct supplier diligence.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-JCET-001",
+      "title": "Advanced Packaging Technology",
+      "publisher": "JCET",
+      "author": "JCET",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.jcetglobal.com/en/site/technology",
+      "source_type": "company technology page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "fan-out",
+        "2.5D",
+        "SiP"
+      ],
+      "summary": "JCET advanced packaging and system-in-package portfolio.",
+      "key_extracted_facts": [
+        "JCET advanced packaging and system-in-package portfolio."
+      ],
+      "limitations_or_caveats": "Geopolitical and customer qualification constraints are not fully described.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-CADENCE-001",
+      "title": "3D-IC System Analysis",
+      "publisher": "Cadence",
+      "author": "Cadence",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.cadence.com/en_US/home/tools/ic-package-design-and-analysis/3dic-design.html",
+      "source_type": "company product page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "EDA",
+        "3D-IC",
+        "multi-physics"
+      ],
+      "summary": "Design flow for chip-package-system co-design and analysis.",
+      "key_extracted_facts": [
+        "Design flow for chip-package-system co-design and analysis."
+      ],
+      "limitations_or_caveats": "Tool claims should be validated against target foundry flows.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-SYNOPSYS-001",
+      "title": "Multi-Die System Solutions",
+      "publisher": "Synopsys",
+      "author": "Synopsys",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.synopsys.com/solutions/multi-die-systems.html",
+      "source_type": "company product page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "EDA",
+        "UCIe",
+        "IP"
+      ],
+      "summary": "Integrated EDA and IP positioning for multi-die systems.",
+      "key_extracted_facts": [
+        "Integrated EDA and IP positioning for multi-die systems."
+      ],
+      "limitations_or_caveats": "Interoperability depends on specific versions and foundry qualification.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-SIEMENS-001",
+      "title": "Calibre 3DSTACK and XSI",
+      "publisher": "Siemens EDA",
+      "author": "Siemens",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://eda.sw.siemens.com/en-US/ic/calibre-design/3dstack/",
+      "source_type": "company product page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "EDA",
+        "verification",
+        "3D-IC"
+      ],
+      "summary": "Physical verification and parasitic extraction for 2.5D/3D integration.",
+      "key_extracted_facts": [
+        "Physical verification and parasitic extraction for 2.5D/3D integration."
+      ],
+      "limitations_or_caveats": "Coverage and runtime depend on design scale and process decks.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-ANSYS-001",
+      "title": "Semiconductor and 3D-IC Multiphysics",
+      "publisher": "Ansys",
+      "author": "Ansys",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.ansys.com/industries/semiconductors",
+      "source_type": "company product page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "thermal",
+        "mechanical",
+        "signal integrity"
+      ],
+      "summary": "Multi-physics context for package thermal, mechanical and electrical co-design.",
+      "key_extracted_facts": [
+        "Multi-physics context for package thermal, mechanical and electrical co-design."
+      ],
+      "limitations_or_caveats": "Accuracy depends on calibrated material and boundary-condition inputs.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-AYAR-001",
+      "title": "TeraPHY Optical I/O Chiplet",
+      "publisher": "Ayar Labs",
+      "author": "Ayar Labs",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://ayarlabs.com/technology/",
+      "source_type": "company technology page",
+      "credibility_tier": 2,
+      "relevant_technologies": [
+        "optical I/O",
+        "chiplets",
+        "CPO"
+      ],
+      "summary": "Vendor architecture for in-package optical I/O chiplets and external lasers.",
+      "key_extracted_facts": [
+        "Vendor architecture for in-package optical I/O chiplets and external lasers."
+      ],
+      "limitations_or_caveats": "Private-company claims and production scale require diligence.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-LIGHTMATTER-001",
+      "title": "Passage Photonic Interconnect",
+      "publisher": "Lightmatter",
+      "author": "Lightmatter",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://lightmatter.co/products/passage/",
+      "source_type": "company technology page",
+      "credibility_tier": 2,
+      "relevant_technologies": [
+        "silicon photonics",
+        "interposer",
+        "optical I/O"
+      ],
+      "summary": "Photonic interconnect platform positioning for AI scale-up.",
+      "key_extracted_facts": [
+        "Photonic interconnect platform positioning for AI scale-up."
+      ],
+      "limitations_or_caveats": "Commercial availability, yield and customer adoption are not fully public.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-RANOVUS-001",
+      "title": "Odin CPO Platform",
+      "publisher": "Ranovus",
+      "author": "Ranovus",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://ranovus.com/technology/",
+      "source_type": "company technology page",
+      "credibility_tier": 2,
+      "relevant_technologies": [
+        "CPO",
+        "silicon photonics"
+      ],
+      "summary": "CPO engine architecture and ecosystem positioning.",
+      "key_extracted_facts": [
+        "CPO engine architecture and ecosystem positioning."
+      ],
+      "limitations_or_caveats": "Volume manufacturing and field reliability evidence is limited publicly.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-CELESTIAL-001",
+      "title": "Photonic Fabric",
+      "publisher": "Celestial AI",
+      "author": "Celestial AI",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.celestial.ai/technology",
+      "source_type": "company technology page",
+      "credibility_tier": 2,
+      "relevant_technologies": [
+        "photonic fabric",
+        "memory disaggregation"
+      ],
+      "summary": "Describes photonic fabric architecture for compute and memory connectivity.",
+      "key_extracted_facts": [
+        "Describes photonic fabric architecture for compute and memory connectivity."
+      ],
+      "limitations_or_caveats": "Now part of Marvell; pre-acquisition claims need integration-roadmap confirmation.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-COHERENT-001",
+      "title": "Datacenter Transceivers and Optical Engines",
+      "publisher": "Coherent",
+      "author": "Coherent",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.coherent.com/networking",
+      "source_type": "company product page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "lasers",
+        "optics",
+        "CPO"
+      ],
+      "summary": "Supplier context for lasers, transceivers and optical components.",
+      "key_extracted_facts": [
+        "Supplier context for lasers, transceivers and optical components."
+      ],
+      "limitations_or_caveats": "CPO-specific commercial terms and yields are not public.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-LUMENTUM-001",
+      "title": "Cloud and Networking Optical Products",
+      "publisher": "Lumentum",
+      "author": "Lumentum",
+      "date_published": "2025-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.lumentum.com/en/optical-communications",
+      "source_type": "company product page",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "lasers",
+        "optics"
+      ],
+      "summary": "Supplier context for external laser and optical component ecosystems.",
+      "key_extracted_facts": [
+        "Supplier context for external laser and optical component ecosystems."
+      ],
+      "limitations_or_caveats": "Customer concentration and product-level qualification details are limited.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-IEEE-001",
+      "title": "Heterogeneous Integration Roadmap",
+      "publisher": "IEEE Electronics Packaging Society",
+      "author": "IEEE",
+      "date_published": "2023-01-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://eps.ieee.org/technology/heterogeneous-integration-roadmap.html",
+      "source_type": "technical roadmap",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "packaging",
+        "materials",
+        "test"
+      ],
+      "summary": "Cross-industry roadmap for heterogeneous integration, interconnect scaling and manufacturing challenges.",
+      "key_extracted_facts": [
+        "Cross-industry roadmap for heterogeneous integration, interconnect scaling and manufacturing challenges."
+      ],
+      "limitations_or_caveats": "Roadmap aggregates expert expectations rather than committed vendor schedules.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-ECTC-001",
+      "title": "Electronic Components and Technology Conference Proceedings",
+      "publisher": "IEEE ECTC",
+      "author": "IEEE",
+      "date_published": "2025-05-27",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.ectc.net/",
+      "source_type": "technical conference",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "packaging",
+        "hybrid bonding",
+        "thermal"
+      ],
+      "summary": "Peer-reviewed and industry technical papers on packaging processes and reliability.",
+      "key_extracted_facts": [
+        "Peer-reviewed and industry technical papers on packaging processes and reliability."
+      ],
+      "limitations_or_caveats": "Individual papers use different test vehicles and are not always directly comparable.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-PCI-001",
+      "title": "PCI Express 7.0 Specification",
+      "publisher": "PCI-SIG",
+      "author": "PCI-SIG",
+      "date_published": "2025-06-11",
+      "date_accessed": "2026-06-10",
+      "url": "https://pcisig.com/pci-express-7.0-specification",
+      "source_type": "industry standard",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "PCIe",
+        "SerDes",
+        "CXL"
+      ],
+      "summary": "I/O roadmap context for 128 GT/s electrical links.",
+      "key_extracted_facts": [
+        "I/O roadmap context for 128 GT/s electrical links."
+      ],
+      "limitations_or_caveats": "Product adoption follows specification release by multiple years.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-CXL-001",
+      "title": "CXL 3.1 Specification",
+      "publisher": "CXL Consortium",
+      "author": "CXL Consortium",
+      "date_published": "2023-11-07",
+      "date_accessed": "2026-06-10",
+      "url": "https://www.computeexpresslink.org/download-the-specification",
+      "source_type": "industry standard",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "CXL",
+        "memory expansion"
+      ],
+      "summary": "Standards context for memory pooling, switching and fabric-attached memory.",
+      "key_extracted_facts": [
+        "Standards context for memory pooling, switching and fabric-attached memory."
+      ],
+      "limitations_or_caveats": "CXL is complementary to, not a direct bandwidth substitute for, local HBM.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    },
+    {
+      "source_id": "SRC-UET-001",
+      "title": "Ultra Ethernet Specification",
+      "publisher": "Ultra Ethernet Consortium",
+      "author": "UEC",
+      "date_published": "2025-06-01",
+      "date_accessed": "2026-06-10",
+      "url": "https://ultraethernet.org/specifications/",
+      "source_type": "industry standard",
+      "credibility_tier": 1,
+      "relevant_technologies": [
+        "Ethernet",
+        "AI networking"
+      ],
+      "summary": "Open Ethernet enhancements for AI and HPC scale-out networking.",
+      "key_extracted_facts": [
+        "Open Ethernet enhancements for AI and HPC scale-out networking."
+      ],
+      "limitations_or_caveats": "Silicon and software maturity will determine deployment timing.",
+      "claim_status": "confirmed source; underlying roadmap claims may be announced"
+    }
+  ]
+}

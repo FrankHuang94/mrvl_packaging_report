@@ -1,0 +1,74 @@
+{
+  "benchmarks": [
+    {
+      "benchmark_id": "BM-001",
+      "technology": "HBM4",
+      "metric": "interface width",
+      "value": 2048,
+      "unit": "bits",
+      "condition": "JEDEC standard",
+      "source_id": "SRC-JEDEC-001",
+      "confidence_level": "high",
+      "comparable_to": [
+        "HBM3 1024-bit"
+      ],
+      "caveat": "Vendor implementations can exceed baseline data rates."
+    },
+    {
+      "benchmark_id": "BM-002",
+      "technology": "UCIe 3.0",
+      "metric": "data rate",
+      "value": 64,
+      "unit": "GT/s",
+      "condition": "maximum specified lane rate",
+      "source_id": "SRC-UCIE-002",
+      "confidence_level": "high",
+      "comparable_to": [
+        "UCIe 2.0"
+      ],
+      "caveat": "Specification rate is not equivalent to shipping interoperable products."
+    },
+    {
+      "benchmark_id": "BM-003",
+      "technology": "Marvell 224G LR SerDes",
+      "metric": "demonstrated energy",
+      "value": 4,
+      "unit": "pJ/bit",
+      "condition": "vendor OFC 2026 demonstration",
+      "source_id": "SRC-MRVL-002",
+      "confidence_level": "medium",
+      "comparable_to": [
+        "other 224G links"
+      ],
+      "caveat": "Vendor-measured demonstration; channel and FEC assumptions matter."
+    },
+    {
+      "benchmark_id": "BM-004",
+      "technology": "Marvell 224G LR SerDes",
+      "metric": "demonstrated reach",
+      "value": 2.5,
+      "unit": "m",
+      "condition": "composite copper channel",
+      "source_id": "SRC-MRVL-002",
+      "confidence_level": "medium",
+      "comparable_to": [
+        "short-reach copper"
+      ],
+      "caveat": "Not a package die-to-die metric."
+    },
+    {
+      "benchmark_id": "BM-005",
+      "technology": "PCIe 7.0",
+      "metric": "data rate",
+      "value": 128,
+      "unit": "GT/s",
+      "condition": "specification",
+      "source_id": "SRC-PCI-001",
+      "confidence_level": "high",
+      "comparable_to": [
+        "PCIe 6.0"
+      ],
+      "caveat": "Commercial adoption lags specification."
+    }
+  ]
+}

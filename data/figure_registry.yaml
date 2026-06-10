@@ -1,0 +1,876 @@
+{
+  "figures": [
+    {
+      "figure_id": "FIG-MMD-001",
+      "title": "Advanced packaging taxonomy",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Advanced packaging taxonomy",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-002",
+      "title": "AI XPU package architecture with compute, I/O, HBM, interposer, substrate, CPO and power",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "AI XPU package architecture with compute, I/O, HBM, interposer, substrate, CPO and power",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-003",
+      "title": "CoWoS-S versus CoWoS-L versus CoWoS-R",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "CoWoS-S versus CoWoS-L versus CoWoS-R",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-004",
+      "title": "CoWoS versus RDL interposer versus EMIB-style bridge",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "CoWoS versus RDL interposer versus EMIB-style bridge",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-005",
+      "title": "HBM subsystem architecture",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "HBM subsystem architecture",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-006",
+      "title": "Custom HBM base die concept",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Custom HBM base die concept",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-007",
+      "title": "HBM thermal bottleneck map",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "HBM thermal bottleneck map",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-008",
+      "title": "3D hybrid bonding process flow",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "3D hybrid bonding process flow",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-009",
+      "title": "UCIe chiplet architecture",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "UCIe chiplet architecture",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-010",
+      "title": "Parallel versus serial die-to-die tradeoff",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Parallel versus serial die-to-die tradeoff",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-011",
+      "title": "CPO-enabled XPU scale-up architecture",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "CPO-enabled XPU scale-up architecture",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-012",
+      "title": "CPO-enabled switch ASIC architecture",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "CPO-enabled switch ASIC architecture",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-013",
+      "title": "Pluggable optics versus LPO versus CPO versus optical I/O",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Pluggable optics versus LPO versus CPO versus optical I/O",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-014",
+      "title": "Silicon photonics integration stack",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Silicon photonics integration stack",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-015",
+      "title": "Package-level power delivery map",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Package-level power delivery map",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-016",
+      "title": "Advanced substrate roadmap",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Advanced substrate roadmap",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-017",
+      "title": "Glass substrate adoption decision tree",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Glass substrate adoption decision tree",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-018",
+      "title": "Packaging supply-chain map",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Packaging supply-chain map",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-019",
+      "title": "OSAT versus foundry-led packaging ecosystem",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "OSAT versus foundry-led packaging ecosystem",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-020",
+      "title": "Known-good-die and test flow",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Known-good-die and test flow",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-021",
+      "title": "Yield compounding in multi-die packages",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Yield compounding in multi-die packages",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-022",
+      "title": "Hyperscaler XPU packaging requirement matrix",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Hyperscaler XPU packaging requirement matrix",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-023",
+      "title": "Marvell custom XPU packaging strategy map",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Marvell custom XPU packaging strategy map",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-024",
+      "title": "Marvell versus Broadcom competitive positioning",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Marvell versus Broadcom competitive positioning",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-025",
+      "title": "Marvell strategic option map: build versus partner versus acquire",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Marvell strategic option map: build versus partner versus acquire",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-026",
+      "title": "Corporate development watchlist map",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Corporate development watchlist map",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-027",
+      "title": "Full database refresh workflow",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Full database refresh workflow",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-028",
+      "title": "Section-specific refresh workflow",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Section-specific refresh workflow",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-029",
+      "title": "HBM4 qualification gates",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "HBM4 qualification gates",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-MMD-030",
+      "title": "Optical I/O serviceability architecture",
+      "figure_type": "Mermaid diagram",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis from cited source IDs",
+      "URL": "",
+      "local_path": "assets/diagrams/mermaid_catalog.md",
+      "license_or_usage_note": "Original repository content; may be reused with attribution to this repository.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging",
+        "AI infrastructure"
+      ],
+      "related_vendors": [
+        "Marvell",
+        "ecosystem"
+      ],
+      "caption": "Optical I/O serviceability architecture",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001",
+        "SRC-IEEE-001"
+      ],
+      "caveats": "Conceptual schematic; not drawn to scale and does not reproduce a vendor figure."
+    },
+    {
+      "figure_id": "FIG-SVG-001",
+      "title": "XPU package cross-section",
+      "figure_type": "SVG schematic",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis",
+      "URL": "",
+      "local_path": "assets/diagrams/xpu-package-cross-section.svg",
+      "license_or_usage_note": "Original repository content; no external image rights required.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging"
+      ],
+      "related_vendors": [
+        "Marvell"
+      ],
+      "caption": "XPU package cross-section",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001"
+      ],
+      "caveats": "Conceptual and not to scale."
+    },
+    {
+      "figure_id": "FIG-SVG-002",
+      "title": "HBM thermal path",
+      "figure_type": "SVG schematic",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis",
+      "URL": "",
+      "local_path": "assets/diagrams/hbm-thermal-path.svg",
+      "license_or_usage_note": "Original repository content; no external image rights required.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging"
+      ],
+      "related_vendors": [
+        "Marvell"
+      ],
+      "caption": "HBM thermal path",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001"
+      ],
+      "caveats": "Conceptual and not to scale."
+    },
+    {
+      "figure_id": "FIG-SVG-003",
+      "title": "CPO serviceability model",
+      "figure_type": "SVG schematic",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis",
+      "URL": "",
+      "local_path": "assets/diagrams/cpo-serviceability-model.svg",
+      "license_or_usage_note": "Original repository content; no external image rights required.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging"
+      ],
+      "related_vendors": [
+        "Marvell"
+      ],
+      "caption": "CPO serviceability model",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001"
+      ],
+      "caveats": "Conceptual and not to scale."
+    },
+    {
+      "figure_id": "FIG-SVG-004",
+      "title": "Packaging evidence ladder",
+      "figure_type": "SVG schematic",
+      "source_type": "author-created schematic",
+      "original_source": "Research synthesis",
+      "URL": "",
+      "local_path": "assets/diagrams/packaging-evidence-ladder.svg",
+      "license_or_usage_note": "Original repository content; no external image rights required.",
+      "date_accessed": "2026-06-10",
+      "related_technologies": [
+        "advanced packaging"
+      ],
+      "related_vendors": [
+        "Marvell"
+      ],
+      "caption": "Packaging evidence ladder",
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-TSMC-001"
+      ],
+      "caveats": "Conceptual and not to scale."
+    }
+  ]
+}

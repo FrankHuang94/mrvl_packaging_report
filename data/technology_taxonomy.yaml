@@ -1,0 +1,2295 @@
+{
+  "technologies": [
+    {
+      "technology_id": "cowos-s",
+      "name": "TSMC CoWoS-S",
+      "category": "2.5D packaging",
+      "description": "Full silicon interposer integration for logic and HBM",
+      "maturity_level": "production",
+      "key_vendors": [
+        "TSMC"
+      ],
+      "relevant_applications": [
+        "AI training",
+        "HPC"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "interposer capacity",
+        "reticle-scale economics",
+        "warpage"
+      ],
+      "bottlenecks": [
+        "interposer capacity",
+        "reticle-scale economics",
+        "warpage"
+      ],
+      "Marvell_relevance_score": 4,
+      "competitive_threat_score": 3,
+      "partnership_potential_score": 4,
+      "acquisition_relevance_score": 2,
+      "source_ids": [
+        "SRC-TSMC-001",
+        "SRC-TSMC-003"
+      ],
+      "figure_ids": [
+        "FIG-MMD-001"
+      ],
+      "table_ids": [
+        "TBL-TECH-001"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/cowos-s.md"
+    },
+    {
+      "technology_id": "cowos-l",
+      "name": "TSMC CoWoS-L",
+      "category": "2.5D packaging",
+      "description": "Local silicon interconnect with RDL interposer scaling",
+      "maturity_level": "ramping",
+      "key_vendors": [
+        "TSMC"
+      ],
+      "relevant_applications": [
+        "large AI XPU",
+        "multi-chiplet compute"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "RDL yield",
+        "bridge alignment",
+        "package-scale validation"
+      ],
+      "bottlenecks": [
+        "RDL yield",
+        "bridge alignment",
+        "package-scale validation"
+      ],
+      "Marvell_relevance_score": 5,
+      "competitive_threat_score": 4,
+      "partnership_potential_score": 5,
+      "acquisition_relevance_score": 3,
+      "source_ids": [
+        "SRC-TSMC-001",
+        "SRC-TSMC-003"
+      ],
+      "figure_ids": [
+        "FIG-MMD-002"
+      ],
+      "table_ids": [
+        "TBL-TECH-002"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/cowos-l.md"
+    },
+    {
+      "technology_id": "cowos-r",
+      "name": "TSMC CoWoS-R",
+      "category": "2.5D packaging",
+      "description": "RDL interposer approach emphasizing package size and cost",
+      "maturity_level": "qualified",
+      "key_vendors": [
+        "TSMC"
+      ],
+      "relevant_applications": [
+        "cost-sensitive accelerator",
+        "network ASIC"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "routing density",
+        "power integrity",
+        "customer qualification"
+      ],
+      "bottlenecks": [
+        "routing density",
+        "power integrity",
+        "customer qualification"
+      ],
+      "Marvell_relevance_score": 3,
+      "competitive_threat_score": 5,
+      "partnership_potential_score": 3,
+      "acquisition_relevance_score": 4,
+      "source_ids": [
+        "SRC-TSMC-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-003"
+      ],
+      "table_ids": [
+        "TBL-TECH-003"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/cowos-r.md"
+    },
+    {
+      "technology_id": "silicon-interposer",
+      "name": "Silicon Interposer",
+      "category": "2.5D packaging",
+      "description": "Fine-pitch passive silicon routing layer with TSVs",
+      "maturity_level": "production",
+      "key_vendors": [
+        "TSMC",
+        "Samsung",
+        "ASE",
+        "Amkor"
+      ],
+      "relevant_applications": [
+        "AI accelerator",
+        "HBM integration"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "cost",
+        "capacity",
+        "large-area yield"
+      ],
+      "bottlenecks": [
+        "cost",
+        "capacity",
+        "large-area yield"
+      ],
+      "Marvell_relevance_score": 4,
+      "competitive_threat_score": 2,
+      "partnership_potential_score": 4,
+      "acquisition_relevance_score": 1,
+      "source_ids": [
+        "SRC-TSMC-001",
+        "SRC-SAMSUNG-001",
+        "SRC-ASE-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-004"
+      ],
+      "table_ids": [
+        "TBL-TECH-004"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/silicon-interposer.md"
+    },
+    {
+      "technology_id": "rdl-interposer",
+      "name": "RDL Interposer",
+      "category": "2.5D packaging",
+      "description": "Polymer and metal redistribution structure without full silicon area",
+      "maturity_level": "ramping",
+      "key_vendors": [
+        "TSMC",
+        "ASE",
+        "Amkor",
+        "JCET"
+      ],
+      "relevant_applications": [
+        "AI inference",
+        "networking"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "line-space scaling",
+        "warpage",
+        "via reliability"
+      ],
+      "bottlenecks": [
+        "line-space scaling",
+        "warpage",
+        "via reliability"
+      ],
+      "Marvell_relevance_score": 5,
+      "competitive_threat_score": 3,
+      "partnership_potential_score": 5,
+      "acquisition_relevance_score": 2,
+      "source_ids": [
+        "SRC-TSMC-001",
+        "SRC-ASE-001",
+        "SRC-AMKOR-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-005"
+      ],
+      "table_ids": [
+        "TBL-TECH-005"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/rdl-interposer.md"
+    },
+    {
+      "technology_id": "emib",
+      "name": "Embedded Silicon Bridge",
+      "category": "2.5D packaging",
+      "description": "Localized silicon bridge embedded in an organic substrate",
+      "maturity_level": "production",
+      "key_vendors": [
+        "Intel",
+        "ASE"
+      ],
+      "relevant_applications": [
+        "CPU",
+        "GPU",
+        "AI accelerator"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "assembly tolerance",
+        "substrate routing",
+        "merchant access"
+      ],
+      "bottlenecks": [
+        "assembly tolerance",
+        "substrate routing",
+        "merchant access"
+      ],
+      "Marvell_relevance_score": 3,
+      "competitive_threat_score": 4,
+      "partnership_potential_score": 3,
+      "acquisition_relevance_score": 3,
+      "source_ids": [
+        "SRC-INTEL-001",
+        "SRC-INTEL-003"
+      ],
+      "figure_ids": [
+        "FIG-MMD-006"
+      ],
+      "table_ids": [
+        "TBL-TECH-006"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/emib.md"
+    },
+    {
+      "technology_id": "fanout",
+      "name": "Fan-out on Substrate and Panel Fan-out",
+      "category": "fan-out",
+      "description": "Redistribution-first package with molded or panel processing",
+      "maturity_level": "production and development",
+      "key_vendors": [
+        "ASE",
+        "Amkor",
+        "JCET",
+        "TSMC"
+      ],
+      "relevant_applications": [
+        "inference ASIC",
+        "switch ASIC"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "die shift",
+        "panel tools",
+        "large-body warpage"
+      ],
+      "bottlenecks": [
+        "die shift",
+        "panel tools",
+        "large-body warpage"
+      ],
+      "Marvell_relevance_score": 4,
+      "competitive_threat_score": 5,
+      "partnership_potential_score": 4,
+      "acquisition_relevance_score": 4,
+      "source_ids": [
+        "SRC-ASE-001",
+        "SRC-AMKOR-001",
+        "SRC-JCET-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-007"
+      ],
+      "table_ids": [
+        "TBL-TECH-007"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/fanout.md"
+    },
+    {
+      "technology_id": "glass-substrate",
+      "name": "Glass Core Substrate",
+      "category": "substrate",
+      "description": "Low-warpage, dimensionally stable core for large packages",
+      "maturity_level": "development",
+      "key_vendors": [
+        "Intel",
+        "Samsung",
+        "Absolics"
+      ],
+      "relevant_applications": [
+        "late-decade AI package"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "through-glass vias",
+        "handling",
+        "cost and ecosystem"
+      ],
+      "bottlenecks": [
+        "through-glass vias",
+        "handling",
+        "cost and ecosystem"
+      ],
+      "Marvell_relevance_score": 5,
+      "competitive_threat_score": 2,
+      "partnership_potential_score": 5,
+      "acquisition_relevance_score": 1,
+      "source_ids": [
+        "SRC-INTEL-002",
+        "SRC-IEEE-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-008"
+      ],
+      "table_ids": [
+        "TBL-TECH-008"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/glass-substrate.md"
+    },
+    {
+      "technology_id": "soic",
+      "name": "TSMC SoIC",
+      "category": "3D stacking",
+      "description": "Fine-pitch hybrid-bonded die or wafer stacking",
+      "maturity_level": "ramping",
+      "key_vendors": [
+        "TSMC"
+      ],
+      "relevant_applications": [
+        "cache stacking",
+        "logic-on-logic",
+        "3D I/O"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "known-good-die",
+        "thermal density",
+        "bond yield"
+      ],
+      "bottlenecks": [
+        "known-good-die",
+        "thermal density",
+        "bond yield"
+      ],
+      "Marvell_relevance_score": 3,
+      "competitive_threat_score": 3,
+      "partnership_potential_score": 3,
+      "acquisition_relevance_score": 2,
+      "source_ids": [
+        "SRC-TSMC-001",
+        "SRC-TSMC-003"
+      ],
+      "figure_ids": [
+        "FIG-MMD-009"
+      ],
+      "table_ids": [
+        "TBL-TECH-009"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/soic.md"
+    },
+    {
+      "technology_id": "foveros-direct",
+      "name": "Intel Foveros and Foveros Direct",
+      "category": "3D stacking",
+      "description": "Active base-die stacking with micro-bumps or direct bonding",
+      "maturity_level": "production and ramping",
+      "key_vendors": [
+        "Intel"
+      ],
+      "relevant_applications": [
+        "CPU",
+        "HPC",
+        "AI"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "external access",
+        "thermal",
+        "test"
+      ],
+      "bottlenecks": [
+        "external access",
+        "thermal",
+        "test"
+      ],
+      "Marvell_relevance_score": 4,
+      "competitive_threat_score": 4,
+      "partnership_potential_score": 4,
+      "acquisition_relevance_score": 3,
+      "source_ids": [
+        "SRC-INTEL-001",
+        "SRC-INTEL-003"
+      ],
+      "figure_ids": [
+        "FIG-MMD-010"
+      ],
+      "table_ids": [
+        "TBL-TECH-010"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/foveros-direct.md"
+    },
+    {
+      "technology_id": "x-cube",
+      "name": "Samsung X-Cube",
+      "category": "3D stacking",
+      "description": "Samsung 3D integration platform using TSV and fine-pitch bonding",
+      "maturity_level": "development and selective qualification",
+      "key_vendors": [
+        "Samsung"
+      ],
+      "relevant_applications": [
+        "logic stacking",
+        "HPC"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "customer evidence",
+        "yield",
+        "ecosystem"
+      ],
+      "bottlenecks": [
+        "customer evidence",
+        "yield",
+        "ecosystem"
+      ],
+      "Marvell_relevance_score": 5,
+      "competitive_threat_score": 5,
+      "partnership_potential_score": 5,
+      "acquisition_relevance_score": 4,
+      "source_ids": [
+        "SRC-SAMSUNG-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-011"
+      ],
+      "table_ids": [
+        "TBL-TECH-011"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/x-cube.md"
+    },
+    {
+      "technology_id": "hybrid-bonding",
+      "name": "Hybrid Bonding",
+      "category": "3D stacking",
+      "description": "Direct copper and dielectric bonding at fine pitch",
+      "maturity_level": "ramping",
+      "key_vendors": [
+        "TSMC",
+        "Intel",
+        "Samsung",
+        "ASE"
+      ],
+      "relevant_applications": [
+        "3D cache",
+        "logic stacking",
+        "HBM"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "surface planarity",
+        "particles",
+        "repairability"
+      ],
+      "bottlenecks": [
+        "surface planarity",
+        "particles",
+        "repairability"
+      ],
+      "Marvell_relevance_score": 3,
+      "competitive_threat_score": 2,
+      "partnership_potential_score": 3,
+      "acquisition_relevance_score": 1,
+      "source_ids": [
+        "SRC-TSMC-001",
+        "SRC-INTEL-001",
+        "SRC-ECTC-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-012"
+      ],
+      "table_ids": [
+        "TBL-TECH-012"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/hybrid-bonding.md"
+    },
+    {
+      "technology_id": "hbm3e",
+      "name": "HBM3E",
+      "category": "memory packaging",
+      "description": "High-bandwidth stacked DRAM extension of HBM3",
+      "maturity_level": "high-volume production",
+      "key_vendors": [
+        "SK hynix",
+        "Micron",
+        "Samsung"
+      ],
+      "relevant_applications": [
+        "AI training",
+        "AI inference"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "supply",
+        "thermals",
+        "test yield"
+      ],
+      "bottlenecks": [
+        "supply",
+        "thermals",
+        "test yield"
+      ],
+      "Marvell_relevance_score": 4,
+      "competitive_threat_score": 3,
+      "partnership_potential_score": 4,
+      "acquisition_relevance_score": 2,
+      "source_ids": [
+        "SRC-JEDEC-002",
+        "SRC-SKH-002",
+        "SRC-MICRON-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-013"
+      ],
+      "table_ids": [
+        "TBL-TECH-013"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/hbm3e.md"
+    },
+    {
+      "technology_id": "hbm4",
+      "name": "HBM4 and HBM4E",
+      "category": "memory packaging",
+      "description": "2,048-bit-interface HBM generation with logic base-die opportunity",
+      "maturity_level": "ramping and announced",
+      "key_vendors": [
+        "SK hynix",
+        "Samsung",
+        "Micron"
+      ],
+      "relevant_applications": [
+        "next-generation AI XPU"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "base die co-design",
+        "power",
+        "16-high yield"
+      ],
+      "bottlenecks": [
+        "base die co-design",
+        "power",
+        "16-high yield"
+      ],
+      "Marvell_relevance_score": 5,
+      "competitive_threat_score": 4,
+      "partnership_potential_score": 5,
+      "acquisition_relevance_score": 3,
+      "source_ids": [
+        "SRC-JEDEC-001",
+        "SRC-SKH-001",
+        "SRC-SAMSUNG-002"
+      ],
+      "figure_ids": [
+        "FIG-MMD-014"
+      ],
+      "table_ids": [
+        "TBL-TECH-014"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/hbm4.md"
+    },
+    {
+      "technology_id": "custom-hbm",
+      "name": "Custom HBM Base Die",
+      "category": "memory packaging",
+      "description": "Customer-specific logic base die that can partition PHY, control and data movement",
+      "maturity_level": "announced architecture",
+      "key_vendors": [
+        "Marvell",
+        "memory vendors",
+        "TSMC"
+      ],
+      "relevant_applications": [
+        "custom XPU"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "business model",
+        "memory-vendor interfaces",
+        "verification"
+      ],
+      "bottlenecks": [
+        "business model",
+        "memory-vendor interfaces",
+        "verification"
+      ],
+      "Marvell_relevance_score": 3,
+      "competitive_threat_score": 5,
+      "partnership_potential_score": 3,
+      "acquisition_relevance_score": 4,
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-JEDEC-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-015"
+      ],
+      "table_ids": [
+        "TBL-TECH-015"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/custom-hbm.md"
+    },
+    {
+      "technology_id": "ucie",
+      "name": "UCIe",
+      "category": "die-to-die",
+      "description": "Open package-level die-to-die protocol and physical interface",
+      "maturity_level": "specification and early products",
+      "key_vendors": [
+        "UCIe Consortium",
+        "Synopsys",
+        "Cadence"
+      ],
+      "relevant_applications": [
+        "chiplet XPU",
+        "heterogeneous integration"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "interoperability",
+        "latency overhead",
+        "test"
+      ],
+      "bottlenecks": [
+        "interoperability",
+        "latency overhead",
+        "test"
+      ],
+      "Marvell_relevance_score": 4,
+      "competitive_threat_score": 2,
+      "partnership_potential_score": 4,
+      "acquisition_relevance_score": 1,
+      "source_ids": [
+        "SRC-UCIE-001",
+        "SRC-UCIE-002",
+        "SRC-SYNOPSYS-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-016"
+      ],
+      "table_ids": [
+        "TBL-TECH-016"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/ucie.md"
+    },
+    {
+      "technology_id": "parallel-d2d",
+      "name": "Parallel Die-to-Die Interconnect",
+      "category": "die-to-die",
+      "description": "Wide, low-swing short-reach interface optimized for bandwidth density",
+      "maturity_level": "production proprietary and standardizing",
+      "key_vendors": [
+        "Marvell",
+        "Broadcom",
+        "AMD",
+        "Intel"
+      ],
+      "relevant_applications": [
+        "compute chiplets",
+        "HBM PHY chiplets"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "bump demand",
+        "reach",
+        "package routing"
+      ],
+      "bottlenecks": [
+        "bump demand",
+        "reach",
+        "package routing"
+      ],
+      "Marvell_relevance_score": 5,
+      "competitive_threat_score": 3,
+      "partnership_potential_score": 5,
+      "acquisition_relevance_score": 2,
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-UCIE-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-017"
+      ],
+      "table_ids": [
+        "TBL-TECH-017"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/parallel-d2d.md"
+    },
+    {
+      "technology_id": "serial-d2d",
+      "name": "Serialized XSR/USR Die-to-Die",
+      "category": "die-to-die",
+      "description": "Narrower high-speed SerDes link for longer package reach and modularity",
+      "maturity_level": "production and development",
+      "key_vendors": [
+        "Marvell",
+        "Alphawave",
+        "Synopsys"
+      ],
+      "relevant_applications": [
+        "I/O chiplets",
+        "optical engines"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "energy per bit",
+        "latency",
+        "clocking"
+      ],
+      "bottlenecks": [
+        "energy per bit",
+        "latency",
+        "clocking"
+      ],
+      "Marvell_relevance_score": 3,
+      "competitive_threat_score": 4,
+      "partnership_potential_score": 3,
+      "acquisition_relevance_score": 3,
+      "source_ids": [
+        "SRC-MRVL-002",
+        "SRC-SYNOPSYS-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-018"
+      ],
+      "table_ids": [
+        "TBL-TECH-018"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/serial-d2d.md"
+    },
+    {
+      "technology_id": "cpo-switch",
+      "name": "Switch Co-Packaged Optics",
+      "category": "optical packaging",
+      "description": "Optical engines adjacent to a switch ASIC",
+      "maturity_level": "announced and early deployment",
+      "key_vendors": [
+        "NVIDIA",
+        "Broadcom",
+        "Marvell"
+      ],
+      "relevant_applications": [
+        "scale-out switch",
+        "scale-up switch"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "serviceability",
+        "laser reliability",
+        "thermal isolation"
+      ],
+      "bottlenecks": [
+        "serviceability",
+        "laser reliability",
+        "thermal isolation"
+      ],
+      "Marvell_relevance_score": 4,
+      "competitive_threat_score": 5,
+      "partnership_potential_score": 4,
+      "acquisition_relevance_score": 4,
+      "source_ids": [
+        "SRC-NVIDIA-002",
+        "SRC-OIF-001",
+        "SRC-BRCM-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-019"
+      ],
+      "table_ids": [
+        "TBL-TECH-019"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/cpo-switch.md"
+    },
+    {
+      "technology_id": "optical-io",
+      "name": "Optical I/O Chiplets for XPUs",
+      "category": "optical packaging",
+      "description": "In-package optical chiplets connecting compute to rack-scale fabrics",
+      "maturity_level": "development",
+      "key_vendors": [
+        "Marvell",
+        "Ayar Labs",
+        "Lightmatter",
+        "Ranovus"
+      ],
+      "relevant_applications": [
+        "custom XPU",
+        "memory disaggregation"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "fiber attach",
+        "test",
+        "protocol integration"
+      ],
+      "bottlenecks": [
+        "fiber attach",
+        "test",
+        "protocol integration"
+      ],
+      "Marvell_relevance_score": 5,
+      "competitive_threat_score": 2,
+      "partnership_potential_score": 5,
+      "acquisition_relevance_score": 1,
+      "source_ids": [
+        "SRC-MRVL-003",
+        "SRC-AYAR-001",
+        "SRC-LIGHTMATTER-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-020"
+      ],
+      "table_ids": [
+        "TBL-TECH-020"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/optical-io.md"
+    },
+    {
+      "technology_id": "external-laser",
+      "name": "External Laser Source",
+      "category": "optical packaging",
+      "description": "Serviceable laser supply separated from hot compute package",
+      "maturity_level": "qualification",
+      "key_vendors": [
+        "Coherent",
+        "Lumentum",
+        "Ayar Labs"
+      ],
+      "relevant_applications": [
+        "CPO",
+        "optical I/O"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "coupling loss",
+        "redundancy",
+        "connector standards"
+      ],
+      "bottlenecks": [
+        "coupling loss",
+        "redundancy",
+        "connector standards"
+      ],
+      "Marvell_relevance_score": 3,
+      "competitive_threat_score": 3,
+      "partnership_potential_score": 3,
+      "acquisition_relevance_score": 2,
+      "source_ids": [
+        "SRC-OIF-001",
+        "SRC-COHERENT-001",
+        "SRC-LUMENTUM-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-021"
+      ],
+      "table_ids": [
+        "TBL-TECH-021"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/external-laser.md"
+    },
+    {
+      "technology_id": "abf-substrate",
+      "name": "ABF Organic Substrate",
+      "category": "substrate",
+      "description": "Build-up organic package substrate used under advanced interposers",
+      "maturity_level": "high-volume production",
+      "key_vendors": [
+        "Ibiden",
+        "Shinko",
+        "Unimicron",
+        "Kinsus",
+        "AT&S"
+      ],
+      "relevant_applications": [
+        "AI accelerator",
+        "network ASIC"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "capacity",
+        "warpage",
+        "large-body yield"
+      ],
+      "bottlenecks": [
+        "capacity",
+        "warpage",
+        "large-body yield"
+      ],
+      "Marvell_relevance_score": 4,
+      "competitive_threat_score": 4,
+      "partnership_potential_score": 4,
+      "acquisition_relevance_score": 3,
+      "source_ids": [
+        "SRC-IEEE-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-022"
+      ],
+      "table_ids": [
+        "TBL-TECH-022"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/abf-substrate.md"
+    },
+    {
+      "technology_id": "power-delivery",
+      "name": "Package Power Delivery and IVR",
+      "category": "power and thermal",
+      "description": "Package-level power distribution, decoupling and voltage conversion",
+      "maturity_level": "production and development",
+      "key_vendors": [
+        "Marvell",
+        "foundries",
+        "power vendors"
+      ],
+      "relevant_applications": [
+        "high-power XPU"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "current density",
+        "droop",
+        "thermal coupling"
+      ],
+      "bottlenecks": [
+        "current density",
+        "droop",
+        "thermal coupling"
+      ],
+      "Marvell_relevance_score": 5,
+      "competitive_threat_score": 5,
+      "partnership_potential_score": 5,
+      "acquisition_relevance_score": 4,
+      "source_ids": [
+        "SRC-ANSYS-001",
+        "SRC-IEEE-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-023"
+      ],
+      "table_ids": [
+        "TBL-TECH-023"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/power-delivery.md"
+    },
+    {
+      "technology_id": "liquid-cooling",
+      "name": "Direct Liquid and Package Cooling",
+      "category": "power and thermal",
+      "description": "Cold plates, TIMs and liquid loops for high-power packages",
+      "maturity_level": "production",
+      "key_vendors": [
+        "system OEMs",
+        "thermal suppliers"
+      ],
+      "relevant_applications": [
+        "AI rack"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "leak risk",
+        "TIM aging",
+        "serviceability"
+      ],
+      "bottlenecks": [
+        "leak risk",
+        "TIM aging",
+        "serviceability"
+      ],
+      "Marvell_relevance_score": 3,
+      "competitive_threat_score": 2,
+      "partnership_potential_score": 3,
+      "acquisition_relevance_score": 1,
+      "source_ids": [
+        "SRC-ANSYS-001",
+        "SRC-IEEE-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-024"
+      ],
+      "table_ids": [
+        "TBL-TECH-024"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/liquid-cooling.md"
+    },
+    {
+      "technology_id": "known-good-die",
+      "name": "Known-Good-Die and Chiplet Test",
+      "category": "test",
+      "description": "Pre-bond, mid-bond and final test strategy for multi-die packages",
+      "maturity_level": "production and evolving",
+      "key_vendors": [
+        "ASE",
+        "Amkor",
+        "KYEC",
+        "foundries"
+      ],
+      "relevant_applications": [
+        "all chiplet packages"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "coverage",
+        "DFT standards",
+        "repair"
+      ],
+      "bottlenecks": [
+        "coverage",
+        "DFT standards",
+        "repair"
+      ],
+      "Marvell_relevance_score": 4,
+      "competitive_threat_score": 3,
+      "partnership_potential_score": 4,
+      "acquisition_relevance_score": 2,
+      "source_ids": [
+        "SRC-AMKOR-001",
+        "SRC-ECTC-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-025"
+      ],
+      "table_ids": [
+        "TBL-TECH-025"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/known-good-die.md"
+    },
+    {
+      "technology_id": "multi-die-eda",
+      "name": "Multi-Die EDA and Multi-Physics",
+      "category": "design enablement",
+      "description": "Integrated die-package-board electrical, thermal and mechanical design flow",
+      "maturity_level": "production and maturing",
+      "key_vendors": [
+        "Cadence",
+        "Synopsys",
+        "Siemens",
+        "Ansys"
+      ],
+      "relevant_applications": [
+        "custom XPU",
+        "CPO"
+      ],
+      "technical_metrics": {
+        "bandwidth_density": "configuration-dependent",
+        "energy_per_bit": "record only with test condition",
+        "pitch": "vendor and generation dependent",
+        "thermal_headroom": "system dependent"
+      },
+      "business_metrics": {
+        "cost": "medium to very high",
+        "yield_risk": "medium to high",
+        "supplier_concentration": "tracked by qualified configuration",
+        "time_to_market": "qualification dependent"
+      },
+      "roadmap": [
+        {
+          "year": 2024,
+          "status": "baseline production or development",
+          "confidence_level": "high"
+        },
+        {
+          "year": 2026,
+          "status": "current qualification and scale-up",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "status": "expected density and integration improvement",
+          "confidence_level": "medium"
+        },
+        {
+          "year": 2030,
+          "status": "scenario: broader heterogeneous and optical integration",
+          "confidence_level": "low-medium"
+        }
+      ],
+      "advantages": [
+        "system-level bandwidth",
+        "heterogeneous process optimization",
+        "package-level scaling"
+      ],
+      "limitations": [
+        "data model integration",
+        "runtime",
+        "correlation"
+      ],
+      "bottlenecks": [
+        "data model integration",
+        "runtime",
+        "correlation"
+      ],
+      "Marvell_relevance_score": 5,
+      "competitive_threat_score": 4,
+      "partnership_potential_score": 5,
+      "acquisition_relevance_score": 3,
+      "source_ids": [
+        "SRC-CADENCE-001",
+        "SRC-SYNOPSYS-001",
+        "SRC-SIEMENS-001",
+        "SRC-ANSYS-001"
+      ],
+      "figure_ids": [
+        "FIG-MMD-026"
+      ],
+      "table_ids": [
+        "TBL-TECH-026"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "What is qualified at target package size?",
+        "What is the yield and monthly capacity?",
+        "What is the credible second-source path?"
+      ],
+      "profile_path": "technologies/multi-die-eda.md"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "source_id": {},
+    "title": {},
+    "publisher": {},
+    "author": {},
+    "date_published": {},
+    "date_accessed": {},
+    "url": {},
+    "source_type": {},
+    "credibility_tier": {},
+    "relevant_technologies": {},
+    "summary": {},
+    "key_extracted_facts": {},
+    "limitations_or_caveats": {}
+  },
+  "required": [
+    "source_id",
+    "title",
+    "publisher",
+    "author",
+    "date_published",
+    "date_accessed",
+    "url",
+    "source_type",
+    "credibility_tier",
+    "relevant_technologies",
+    "summary",
+    "key_extracted_facts",
+    "limitations_or_caveats"
+  ],
+  "additionalProperties": true
+}

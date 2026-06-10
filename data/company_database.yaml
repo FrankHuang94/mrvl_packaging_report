@@ -1,0 +1,436 @@
+{
+  "companies": [
+    {
+      "company_id": "ayar-labs",
+      "name": "Ayar Labs",
+      "category": "Silicon photonics and CPO",
+      "technology": "Optical I/O chiplet and external laser",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Partner / invest",
+      "build_partner_acquire": "Partner / invest",
+      "estimated_maturity": "High",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "lightmatter",
+      "name": "Lightmatter",
+      "category": "Silicon photonics and CPO",
+      "technology": "Photonic interposer and scale-up fabric",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Partner / monitor",
+      "build_partner_acquire": "Partner / monitor",
+      "estimated_maturity": "Medium-high",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "ranovus",
+      "name": "Ranovus",
+      "category": "Silicon photonics and CPO",
+      "technology": "CPO optical engine",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Partner / consider investment",
+      "build_partner_acquire": "Partner / consider investment",
+      "estimated_maturity": "Medium",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "coherent",
+      "name": "Coherent",
+      "category": "Optical components",
+      "technology": "Lasers, transceivers and optical engines",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Strategic partner",
+      "build_partner_acquire": "Strategic partner",
+      "estimated_maturity": "High",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "lumentum",
+      "name": "Lumentum",
+      "category": "Optical components",
+      "technology": "External laser and optical component supply",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Strategic partner",
+      "build_partner_acquire": "Strategic partner",
+      "estimated_maturity": "High",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "alphawave-semi",
+      "name": "Alphawave Semi",
+      "category": "Chiplet interconnect IP",
+      "technology": "SerDes and UCIe IP",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Partner / monitor",
+      "build_partner_acquire": "Partner / monitor",
+      "estimated_maturity": "High",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "3d-glass-solutions",
+      "name": "3D Glass Solutions",
+      "category": "Glass and substrate",
+      "technology": "Glass-core and RF/package structures",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Partner / monitor",
+      "build_partner_acquire": "Partner / monitor",
+      "estimated_maturity": "Medium",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "absolics",
+      "name": "Absolics",
+      "category": "Glass and substrate",
+      "technology": "Glass substrate manufacturing",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Partner / monitor",
+      "build_partner_acquire": "Partner / monitor",
+      "estimated_maturity": "Medium",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "siemens-eda",
+      "name": "Siemens EDA",
+      "category": "EDA and multi-die tools",
+      "technology": "3D physical verification",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Partner",
+      "build_partner_acquire": "Partner",
+      "estimated_maturity": "High",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "ansys",
+      "name": "Ansys",
+      "category": "Thermal and multi-physics",
+      "technology": "Package-system simulation",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Partner",
+      "build_partner_acquire": "Partner",
+      "estimated_maturity": "High",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "onto-innovation",
+      "name": "Onto Innovation",
+      "category": "Reliability and inspection",
+      "technology": "Advanced packaging inspection",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Partner / monitor",
+      "build_partner_acquire": "Partner / monitor",
+      "estimated_maturity": "High",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "pdf-solutions",
+      "name": "PDF Solutions",
+      "category": "Yield analytics",
+      "technology": "Manufacturing data analytics",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Partner / acquire capability",
+      "build_partner_acquire": "Partner / acquire capability",
+      "estimated_maturity": "High",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "amkor",
+      "name": "Amkor",
+      "category": "OSAT and test",
+      "technology": "Advanced package assembly and U.S. regionalization",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Strategic partner",
+      "build_partner_acquire": "Strategic partner",
+      "estimated_maturity": "High",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "ase",
+      "name": "ASE",
+      "category": "OSAT and test",
+      "technology": "VIPack, fan-out, bridge and test",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Strategic partner",
+      "build_partner_acquire": "Strategic partner",
+      "estimated_maturity": "High",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "kyec",
+      "name": "KYEC",
+      "category": "OSAT and test",
+      "technology": "High-end test capacity",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Partner / monitor",
+      "build_partner_acquire": "Partner / monitor",
+      "estimated_maturity": "Medium-high",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "vicor",
+      "name": "Vicor",
+      "category": "Power delivery",
+      "technology": "High-density power modules",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Partner / monitor",
+      "build_partner_acquire": "Partner / monitor",
+      "estimated_maturity": "High",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "empower-semiconductor",
+      "name": "Empower Semiconductor",
+      "category": "Power delivery",
+      "technology": "Integrated voltage regulation",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Partner / monitor",
+      "build_partner_acquire": "Partner / monitor",
+      "estimated_maturity": "Medium",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    },
+    {
+      "company_id": "carbice",
+      "name": "Carbice",
+      "category": "Thermal management",
+      "technology": "Advanced thermal interface materials",
+      "why_it_matters": "Potential leverage for Marvell custom XPU packaging or connectivity",
+      "fit_with_Marvell": "Pilot / invest",
+      "build_partner_acquire": "Pilot / invest",
+      "estimated_maturity": "Medium",
+      "key_customers_or_partners_public": "See source database; unavailable where not disclosed",
+      "competitive_tension": "Requires customer conflict and exclusivity diligence",
+      "diligence_questions": [
+        "Production evidence?",
+        "IP and data rights?",
+        "Customer conflicts?",
+        "Integration timing?"
+      ],
+      "source_ids": [
+        "SRC-MRVL-001",
+        "SRC-IEEE-001"
+      ],
+      "valuation": "unavailable",
+      "last_refreshed": "2026-06-10"
+    }
+  ]
+}

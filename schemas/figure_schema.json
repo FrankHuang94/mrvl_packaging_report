@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "figure_id": {},
+    "title": {},
+    "figure_type": {},
+    "source_type": {},
+    "original_source": {},
+    "URL": {},
+    "local_path": {},
+    "license_or_usage_note": {},
+    "date_accessed": {},
+    "related_technologies": {},
+    "related_vendors": {},
+    "caption": {},
+    "source_ids": {},
+    "caveats": {}
+  },
+  "required": [
+    "figure_id",
+    "title",
+    "figure_type",
+    "source_type",
+    "original_source",
+    "URL",
+    "local_path",
+    "license_or_usage_note",
+    "date_accessed",
+    "related_technologies",
+    "related_vendors",
+    "caption",
+    "source_ids",
+    "caveats"
+  ],
+  "additionalProperties": true
+}

@@ -1,0 +1,2407 @@
+{
+  "vendors": [
+    {
+      "vendor_id": "tsmc",
+      "name": "TSMC",
+      "category": "foundry and packaging",
+      "packaging_technologies": [
+        "CoWoS-S",
+        "CoWoS-L",
+        "CoWoS-R",
+        "SoIC",
+        "InFO",
+        "COUPE"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 5,
+      "competitive_threat": 5,
+      "partnership_potential": 5,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-TSMC-001",
+        "SRC-TSMC-002",
+        "SRC-TSMC-003"
+      ],
+      "key_figures": [
+        "FIG-MMD-001"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/tsmc.md"
+    },
+    {
+      "vendor_id": "intel-foundry",
+      "name": "Intel Foundry",
+      "category": "foundry and packaging",
+      "packaging_technologies": [
+        "EMIB",
+        "Foveros",
+        "Foveros Direct",
+        "glass substrate"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 3,
+      "partnership_potential": 4,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-INTEL-001",
+        "SRC-INTEL-002",
+        "SRC-INTEL-003"
+      ],
+      "key_figures": [
+        "FIG-MMD-002"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/intel-foundry.md"
+    },
+    {
+      "vendor_id": "samsung-foundry",
+      "name": "Samsung Foundry",
+      "category": "foundry and packaging",
+      "packaging_technologies": [
+        "I-Cube",
+        "X-Cube",
+        "fan-out"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 3,
+      "partnership_potential": 4,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-SAMSUNG-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-003"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/samsung-foundry.md"
+    },
+    {
+      "vendor_id": "ase",
+      "name": "ASE",
+      "category": "OSAT",
+      "packaging_technologies": [
+        "VIPack",
+        "fan-out",
+        "bridge",
+        "test"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 2,
+      "partnership_potential": 5,
+      "acquisition_relevance": 2,
+      "key_sources": [
+        "SRC-ASE-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-004"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/ase.md"
+    },
+    {
+      "vendor_id": "amkor",
+      "name": "Amkor",
+      "category": "OSAT",
+      "packaging_technologies": [
+        "2.5D",
+        "fan-out",
+        "test"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 2,
+      "partnership_potential": 5,
+      "acquisition_relevance": 2,
+      "key_sources": [
+        "SRC-AMKOR-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-005"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/amkor.md"
+    },
+    {
+      "vendor_id": "jcet",
+      "name": "JCET",
+      "category": "OSAT",
+      "packaging_technologies": [
+        "fan-out",
+        "SiP",
+        "2.5D"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 3,
+      "competitive_threat": 2,
+      "partnership_potential": 3,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-JCET-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-006"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/jcet.md"
+    },
+    {
+      "vendor_id": "spil",
+      "name": "SPIL",
+      "category": "OSAT",
+      "packaging_technologies": [
+        "advanced assembly",
+        "test"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 3,
+      "competitive_threat": 1,
+      "partnership_potential": 4,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-ASE-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-007"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/spil.md"
+    },
+    {
+      "vendor_id": "powertech",
+      "name": "Powertech",
+      "category": "memory packaging and test",
+      "packaging_technologies": [
+        "memory test",
+        "HBM support"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 3,
+      "competitive_threat": 1,
+      "partnership_potential": 4,
+      "acquisition_relevance": 2,
+      "key_sources": [
+        "SRC-IEEE-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-008"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/powertech.md"
+    },
+    {
+      "vendor_id": "kyec",
+      "name": "KYEC",
+      "category": "semiconductor test",
+      "packaging_technologies": [
+        "wafer sort",
+        "final test"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 3,
+      "competitive_threat": 1,
+      "partnership_potential": 4,
+      "acquisition_relevance": 2,
+      "key_sources": [
+        "SRC-ECTC-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-009"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/kyec.md"
+    },
+    {
+      "vendor_id": "sk-hynix",
+      "name": "SK hynix",
+      "category": "HBM supplier",
+      "packaging_technologies": [
+        "HBM3E",
+        "HBM4",
+        "MR-MUF"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 5,
+      "competitive_threat": 4,
+      "partnership_potential": 5,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-SKH-001",
+        "SRC-SKH-002"
+      ],
+      "key_figures": [
+        "FIG-MMD-010"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/sk-hynix.md"
+    },
+    {
+      "vendor_id": "samsung-memory",
+      "name": "Samsung Memory",
+      "category": "HBM supplier",
+      "packaging_technologies": [
+        "HBM3E",
+        "HBM4",
+        "custom base die"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 5,
+      "competitive_threat": 4,
+      "partnership_potential": 5,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-SAMSUNG-002",
+        "SRC-JEDEC-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-011"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/samsung-memory.md"
+    },
+    {
+      "vendor_id": "micron",
+      "name": "Micron",
+      "category": "HBM supplier",
+      "packaging_technologies": [
+        "HBM3E",
+        "HBM4"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 5,
+      "competitive_threat": 3,
+      "partnership_potential": 5,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-MICRON-001",
+        "SRC-JEDEC-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-012"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/micron.md"
+    },
+    {
+      "vendor_id": "marvell",
+      "name": "Marvell",
+      "category": "custom silicon and connectivity",
+      "packaging_technologies": [
+        "custom XPU",
+        "custom HBM",
+        "CPO",
+        "SerDes",
+        "Ethernet"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 5,
+      "competitive_threat": 1,
+      "partnership_potential": 5,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-MRVL-001",
+        "SRC-MRVL-002",
+        "SRC-MRVL-003",
+        "SRC-MRVL-004"
+      ],
+      "key_figures": [
+        "FIG-MMD-013"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/marvell.md"
+    },
+    {
+      "vendor_id": "broadcom",
+      "name": "Broadcom",
+      "category": "custom ASIC and networking",
+      "packaging_technologies": [
+        "custom ASIC",
+        "switch CPO",
+        "SerDes"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 5,
+      "competitive_threat": 5,
+      "partnership_potential": 3,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-BRCM-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-014"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/broadcom.md"
+    },
+    {
+      "vendor_id": "nvidia",
+      "name": "NVIDIA",
+      "category": "AI platform",
+      "packaging_technologies": [
+        "GPU",
+        "NVLink",
+        "CPO",
+        "HBM"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 5,
+      "competitive_threat": 5,
+      "partnership_potential": 3,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-NVIDIA-001",
+        "SRC-NVIDIA-002"
+      ],
+      "key_figures": [
+        "FIG-MMD-015"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/nvidia.md"
+    },
+    {
+      "vendor_id": "amd",
+      "name": "AMD",
+      "category": "AI accelerator",
+      "packaging_technologies": [
+        "chiplet GPU",
+        "3D stacking",
+        "HBM"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 4,
+      "partnership_potential": 3,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-AMD-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-016"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/amd.md"
+    },
+    {
+      "vendor_id": "google",
+      "name": "Google TPU ecosystem",
+      "category": "hyperscaler custom silicon",
+      "packaging_technologies": [
+        "TPU",
+        "HBM",
+        "optical networking"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 5,
+      "competitive_threat": 3,
+      "partnership_potential": 4,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-MRVL-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-017"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/google.md"
+    },
+    {
+      "vendor_id": "aws",
+      "name": "AWS Trainium and Inferentia ecosystem",
+      "category": "hyperscaler custom silicon",
+      "packaging_technologies": [
+        "Trainium",
+        "Inferentia",
+        "Ethernet"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 5,
+      "competitive_threat": 3,
+      "partnership_potential": 5,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-MRVL-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-018"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/aws.md"
+    },
+    {
+      "vendor_id": "microsoft",
+      "name": "Microsoft Maia ecosystem",
+      "category": "hyperscaler custom silicon",
+      "packaging_technologies": [
+        "Maia",
+        "Cobalt",
+        "Ethernet"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 5,
+      "competitive_threat": 3,
+      "partnership_potential": 5,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-MRVL-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-019"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/microsoft.md"
+    },
+    {
+      "vendor_id": "meta",
+      "name": "Meta MTIA ecosystem",
+      "category": "hyperscaler custom silicon",
+      "packaging_technologies": [
+        "MTIA",
+        "inference"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 2,
+      "partnership_potential": 4,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-MRVL-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-020"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/meta.md"
+    },
+    {
+      "vendor_id": "mediatek",
+      "name": "MediaTek",
+      "category": "custom AI ASIC",
+      "packaging_technologies": [
+        "advanced-node ASIC",
+        "SerDes"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 3,
+      "competitive_threat": 4,
+      "partnership_potential": 2,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-TSMC-004"
+      ],
+      "key_figures": [
+        "FIG-MMD-021"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/mediatek.md"
+    },
+    {
+      "vendor_id": "alchip",
+      "name": "Alchip",
+      "category": "ASIC design service",
+      "packaging_technologies": [
+        "CoWoS",
+        "UCIe",
+        "optical I/O"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 4,
+      "partnership_potential": 3,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-TSMC-004",
+        "SRC-AYAR-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-022"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/alchip.md"
+    },
+    {
+      "vendor_id": "guc",
+      "name": "GUC",
+      "category": "ASIC design service",
+      "packaging_technologies": [
+        "CoWoS",
+        "chiplets"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 4,
+      "partnership_potential": 3,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-TSMC-004"
+      ],
+      "key_figures": [
+        "FIG-MMD-023"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/guc.md"
+    },
+    {
+      "vendor_id": "faraday",
+      "name": "Faraday",
+      "category": "ASIC design service",
+      "packaging_technologies": [
+        "ASIC",
+        "chiplets"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 2,
+      "competitive_threat": 2,
+      "partnership_potential": 3,
+      "acquisition_relevance": 2,
+      "key_sources": [
+        "SRC-TSMC-004"
+      ],
+      "key_figures": [
+        "FIG-MMD-024"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/faraday.md"
+    },
+    {
+      "vendor_id": "socionext",
+      "name": "Socionext",
+      "category": "ASIC design service",
+      "packaging_technologies": [
+        "advanced-node ASIC",
+        "packaging"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 3,
+      "competitive_threat": 3,
+      "partnership_potential": 3,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-TSMC-004"
+      ],
+      "key_figures": [
+        "FIG-MMD-025"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/socionext.md"
+    },
+    {
+      "vendor_id": "coherent",
+      "name": "Coherent",
+      "category": "optical components",
+      "packaging_technologies": [
+        "lasers",
+        "transceivers",
+        "CPO components"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 2,
+      "partnership_potential": 5,
+      "acquisition_relevance": 2,
+      "key_sources": [
+        "SRC-COHERENT-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-026"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/coherent.md"
+    },
+    {
+      "vendor_id": "lumentum",
+      "name": "Lumentum",
+      "category": "optical components",
+      "packaging_technologies": [
+        "lasers",
+        "transceivers"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 2,
+      "partnership_potential": 5,
+      "acquisition_relevance": 2,
+      "key_sources": [
+        "SRC-LUMENTUM-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-027"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/lumentum.md"
+    },
+    {
+      "vendor_id": "ayar-labs",
+      "name": "Ayar Labs",
+      "category": "optical I/O",
+      "packaging_technologies": [
+        "TeraPHY",
+        "SuperNova"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 5,
+      "competitive_threat": 3,
+      "partnership_potential": 5,
+      "acquisition_relevance": 4,
+      "key_sources": [
+        "SRC-AYAR-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-028"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/ayar-labs.md"
+    },
+    {
+      "vendor_id": "celestial-ai",
+      "name": "Celestial AI",
+      "category": "photonic interconnect",
+      "packaging_technologies": [
+        "Photonic Fabric"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 5,
+      "competitive_threat": 1,
+      "partnership_potential": 5,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-CELESTIAL-001",
+        "SRC-MRVL-003"
+      ],
+      "key_figures": [
+        "FIG-MMD-029"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/celestial-ai.md"
+    },
+    {
+      "vendor_id": "lightmatter",
+      "name": "Lightmatter",
+      "category": "photonic interconnect",
+      "packaging_technologies": [
+        "Passage"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 3,
+      "partnership_potential": 5,
+      "acquisition_relevance": 4,
+      "key_sources": [
+        "SRC-LIGHTMATTER-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-030"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/lightmatter.md"
+    },
+    {
+      "vendor_id": "ranovus",
+      "name": "Ranovus",
+      "category": "CPO",
+      "packaging_technologies": [
+        "Odin"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 2,
+      "partnership_potential": 5,
+      "acquisition_relevance": 4,
+      "key_sources": [
+        "SRC-RANOVUS-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-001"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/ranovus.md"
+    },
+    {
+      "vendor_id": "intel-photonics",
+      "name": "Intel Silicon Photonics",
+      "category": "silicon photonics",
+      "packaging_technologies": [
+        "optical engines",
+        "lasers"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 3,
+      "partnership_potential": 4,
+      "acquisition_relevance": 1,
+      "key_sources": [
+        "SRC-INTEL-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-002"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/intel-photonics.md"
+    },
+    {
+      "vendor_id": "synopsys",
+      "name": "Synopsys",
+      "category": "EDA and IP",
+      "packaging_technologies": [
+        "UCIe IP",
+        "multi-die EDA"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 2,
+      "partnership_potential": 5,
+      "acquisition_relevance": 2,
+      "key_sources": [
+        "SRC-SYNOPSYS-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-003"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/synopsys.md"
+    },
+    {
+      "vendor_id": "cadence",
+      "name": "Cadence",
+      "category": "EDA and IP",
+      "packaging_technologies": [
+        "3D-IC design",
+        "UCIe IP"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 2,
+      "partnership_potential": 5,
+      "acquisition_relevance": 2,
+      "key_sources": [
+        "SRC-CADENCE-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-004"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/cadence.md"
+    },
+    {
+      "vendor_id": "siemens",
+      "name": "Siemens EDA",
+      "category": "EDA",
+      "packaging_technologies": [
+        "3DSTACK",
+        "verification"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 3,
+      "competitive_threat": 1,
+      "partnership_potential": 5,
+      "acquisition_relevance": 2,
+      "key_sources": [
+        "SRC-SIEMENS-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-005"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/siemens.md"
+    },
+    {
+      "vendor_id": "ansys",
+      "name": "Ansys",
+      "category": "multi-physics",
+      "packaging_technologies": [
+        "thermal",
+        "mechanical",
+        "SI/PI"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 1,
+      "partnership_potential": 5,
+      "acquisition_relevance": 2,
+      "key_sources": [
+        "SRC-ANSYS-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-006"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/ansys.md"
+    },
+    {
+      "vendor_id": "keysight",
+      "name": "Keysight",
+      "category": "test and measurement",
+      "packaging_technologies": [
+        "224G/448G validation",
+        "optical test"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 4,
+      "competitive_threat": 1,
+      "partnership_potential": 5,
+      "acquisition_relevance": 2,
+      "key_sources": [
+        "SRC-MRVL-002"
+      ],
+      "key_figures": [
+        "FIG-MMD-007"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/keysight.md"
+    },
+    {
+      "vendor_id": "alphawave",
+      "name": "Alphawave Semi",
+      "category": "connectivity IP",
+      "packaging_technologies": [
+        "SerDes",
+        "UCIe",
+        "chiplets"
+      ],
+      "roadmap_claims": [
+        {
+          "year": 2026,
+          "claim": "current public platform and qualification activity",
+          "status": "confirmed or announced by vendor",
+          "confidence_level": "medium-high"
+        },
+        {
+          "year": 2028,
+          "claim": "expected scale, density or ecosystem expansion",
+          "status": "expected; not confirmed",
+          "confidence_level": "medium"
+        }
+      ],
+      "customers_public": [
+        "See cited primary sources; undisclosed customers are not inferred"
+      ],
+      "Marvell_relationship": "competitor, supplier, customer ecosystem or potential partner depending on program",
+      "Marvell_relevance": 3,
+      "competitive_threat": 3,
+      "partnership_potential": 4,
+      "acquisition_relevance": 3,
+      "key_sources": [
+        "SRC-UCIE-001"
+      ],
+      "key_figures": [
+        "FIG-MMD-008"
+      ],
+      "last_refreshed": "2026-06-10",
+      "next_suggested_refresh": "2026-09-10",
+      "confidence_level": "medium-high",
+      "open_questions": [
+        "Which configurations are in volume?",
+        "What capacity is allocable to Marvell customers?",
+        "Where are design rules or commercial terms differentiating?"
+      ],
+      "profile_path": "vendors/alphawave.md"
+    }
+  ],
+  "roadmap_items": [
+    {
+      "year": 2024,
+      "technology": "CoWoS capacity and package scale",
+      "vendor": "TSMC",
+      "claimed_capability": "larger interposer/RDL configurations and capacity expansion",
+      "status": "shipping now / qualified / announced per item",
+      "evidence_source": "SRC-TSMC-003",
+      "confidence_level": "high",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2024,
+      "technology": "SoIC and hybrid bonding",
+      "vendor": "TSMC",
+      "claimed_capability": "finer-pitch 3D stacking and broader product adoption",
+      "status": "shipping now / qualified / announced per item",
+      "evidence_source": "SRC-TSMC-001",
+      "confidence_level": "high",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2024,
+      "technology": "Foveros Direct and EMIB",
+      "vendor": "Intel",
+      "claimed_capability": "combined 2.5D and 3D product and foundry enablement",
+      "status": "shipping now / qualified / announced per item",
+      "evidence_source": "SRC-INTEL-001",
+      "confidence_level": "high",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2024,
+      "technology": "HBM4",
+      "vendor": "JEDEC / memory vendors",
+      "claimed_capability": "2,048-bit interface and logic base-die generation",
+      "status": "shipping now / qualified / announced per item",
+      "evidence_source": "SRC-JEDEC-001",
+      "confidence_level": "high",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2024,
+      "technology": "CPO switch platforms",
+      "vendor": "NVIDIA / Broadcom / Marvell",
+      "claimed_capability": "optics adjacent to high-radix switching",
+      "status": "shipping now / qualified / announced per item",
+      "evidence_source": "SRC-NVIDIA-002",
+      "confidence_level": "high",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2024,
+      "technology": "UCIe",
+      "vendor": "UCIe Consortium",
+      "claimed_capability": "64 GT/s roadmap and 3D manageability",
+      "status": "shipping now / qualified / announced per item",
+      "evidence_source": "SRC-UCIE-002",
+      "confidence_level": "high",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2024,
+      "technology": "Glass substrate",
+      "vendor": "Intel and ecosystem",
+      "claimed_capability": "late-decade large-body substrate option",
+      "status": "shipping now / qualified / announced per item",
+      "evidence_source": "SRC-INTEL-002",
+      "confidence_level": "high",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2024,
+      "technology": "Marvell custom XPU packaging",
+      "vendor": "Marvell",
+      "claimed_capability": "advanced packaging, HBM attach and optical scale-up integration",
+      "status": "shipping now / qualified / announced per item",
+      "evidence_source": "SRC-MRVL-001",
+      "confidence_level": "high",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2025,
+      "technology": "CoWoS capacity and package scale",
+      "vendor": "TSMC",
+      "claimed_capability": "larger interposer/RDL configurations and capacity expansion",
+      "status": "shipping now / qualified / announced per item",
+      "evidence_source": "SRC-TSMC-003",
+      "confidence_level": "medium-high",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2025,
+      "technology": "SoIC and hybrid bonding",
+      "vendor": "TSMC",
+      "claimed_capability": "finer-pitch 3D stacking and broader product adoption",
+      "status": "shipping now / qualified / announced per item",
+      "evidence_source": "SRC-TSMC-001",
+      "confidence_level": "medium-high",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2025,
+      "technology": "Foveros Direct and EMIB",
+      "vendor": "Intel",
+      "claimed_capability": "combined 2.5D and 3D product and foundry enablement",
+      "status": "shipping now / qualified / announced per item",
+      "evidence_source": "SRC-INTEL-001",
+      "confidence_level": "medium-high",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2025,
+      "technology": "HBM4",
+      "vendor": "JEDEC / memory vendors",
+      "claimed_capability": "2,048-bit interface and logic base-die generation",
+      "status": "shipping now / qualified / announced per item",
+      "evidence_source": "SRC-JEDEC-001",
+      "confidence_level": "medium-high",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2025,
+      "technology": "CPO switch platforms",
+      "vendor": "NVIDIA / Broadcom / Marvell",
+      "claimed_capability": "optics adjacent to high-radix switching",
+      "status": "shipping now / qualified / announced per item",
+      "evidence_source": "SRC-NVIDIA-002",
+      "confidence_level": "medium-high",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2025,
+      "technology": "UCIe",
+      "vendor": "UCIe Consortium",
+      "claimed_capability": "64 GT/s roadmap and 3D manageability",
+      "status": "shipping now / qualified / announced per item",
+      "evidence_source": "SRC-UCIE-002",
+      "confidence_level": "medium-high",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2025,
+      "technology": "Glass substrate",
+      "vendor": "Intel and ecosystem",
+      "claimed_capability": "late-decade large-body substrate option",
+      "status": "shipping now / qualified / announced per item",
+      "evidence_source": "SRC-INTEL-002",
+      "confidence_level": "medium-high",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2025,
+      "technology": "Marvell custom XPU packaging",
+      "vendor": "Marvell",
+      "claimed_capability": "advanced packaging, HBM attach and optical scale-up integration",
+      "status": "shipping now / qualified / announced per item",
+      "evidence_source": "SRC-MRVL-001",
+      "confidence_level": "medium-high",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2026,
+      "technology": "CoWoS capacity and package scale",
+      "vendor": "TSMC",
+      "claimed_capability": "larger interposer/RDL configurations and capacity expansion",
+      "status": "announced or expected ramp",
+      "evidence_source": "SRC-TSMC-003",
+      "confidence_level": "medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2026,
+      "technology": "SoIC and hybrid bonding",
+      "vendor": "TSMC",
+      "claimed_capability": "finer-pitch 3D stacking and broader product adoption",
+      "status": "announced or expected ramp",
+      "evidence_source": "SRC-TSMC-001",
+      "confidence_level": "medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2026,
+      "technology": "Foveros Direct and EMIB",
+      "vendor": "Intel",
+      "claimed_capability": "combined 2.5D and 3D product and foundry enablement",
+      "status": "announced or expected ramp",
+      "evidence_source": "SRC-INTEL-001",
+      "confidence_level": "medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2026,
+      "technology": "HBM4",
+      "vendor": "JEDEC / memory vendors",
+      "claimed_capability": "2,048-bit interface and logic base-die generation",
+      "status": "announced or expected ramp",
+      "evidence_source": "SRC-JEDEC-001",
+      "confidence_level": "medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2026,
+      "technology": "CPO switch platforms",
+      "vendor": "NVIDIA / Broadcom / Marvell",
+      "claimed_capability": "optics adjacent to high-radix switching",
+      "status": "announced or expected ramp",
+      "evidence_source": "SRC-NVIDIA-002",
+      "confidence_level": "medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2026,
+      "technology": "UCIe",
+      "vendor": "UCIe Consortium",
+      "claimed_capability": "64 GT/s roadmap and 3D manageability",
+      "status": "announced or expected ramp",
+      "evidence_source": "SRC-UCIE-002",
+      "confidence_level": "medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2026,
+      "technology": "Glass substrate",
+      "vendor": "Intel and ecosystem",
+      "claimed_capability": "late-decade large-body substrate option",
+      "status": "announced or expected ramp",
+      "evidence_source": "SRC-INTEL-002",
+      "confidence_level": "medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2026,
+      "technology": "Marvell custom XPU packaging",
+      "vendor": "Marvell",
+      "claimed_capability": "advanced packaging, HBM attach and optical scale-up integration",
+      "status": "announced or expected ramp",
+      "evidence_source": "SRC-MRVL-001",
+      "confidence_level": "medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2027,
+      "technology": "CoWoS capacity and package scale",
+      "vendor": "TSMC",
+      "claimed_capability": "larger interposer/RDL configurations and capacity expansion",
+      "status": "announced or expected ramp",
+      "evidence_source": "SRC-TSMC-003",
+      "confidence_level": "medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2027,
+      "technology": "SoIC and hybrid bonding",
+      "vendor": "TSMC",
+      "claimed_capability": "finer-pitch 3D stacking and broader product adoption",
+      "status": "announced or expected ramp",
+      "evidence_source": "SRC-TSMC-001",
+      "confidence_level": "medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2027,
+      "technology": "Foveros Direct and EMIB",
+      "vendor": "Intel",
+      "claimed_capability": "combined 2.5D and 3D product and foundry enablement",
+      "status": "announced or expected ramp",
+      "evidence_source": "SRC-INTEL-001",
+      "confidence_level": "medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2027,
+      "technology": "HBM4",
+      "vendor": "JEDEC / memory vendors",
+      "claimed_capability": "2,048-bit interface and logic base-die generation",
+      "status": "announced or expected ramp",
+      "evidence_source": "SRC-JEDEC-001",
+      "confidence_level": "medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2027,
+      "technology": "CPO switch platforms",
+      "vendor": "NVIDIA / Broadcom / Marvell",
+      "claimed_capability": "optics adjacent to high-radix switching",
+      "status": "announced or expected ramp",
+      "evidence_source": "SRC-NVIDIA-002",
+      "confidence_level": "medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2027,
+      "technology": "UCIe",
+      "vendor": "UCIe Consortium",
+      "claimed_capability": "64 GT/s roadmap and 3D manageability",
+      "status": "announced or expected ramp",
+      "evidence_source": "SRC-UCIE-002",
+      "confidence_level": "medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2027,
+      "technology": "Glass substrate",
+      "vendor": "Intel and ecosystem",
+      "claimed_capability": "late-decade large-body substrate option",
+      "status": "announced or expected ramp",
+      "evidence_source": "SRC-INTEL-002",
+      "confidence_level": "medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2027,
+      "technology": "Marvell custom XPU packaging",
+      "vendor": "Marvell",
+      "claimed_capability": "advanced packaging, HBM attach and optical scale-up integration",
+      "status": "announced or expected ramp",
+      "evidence_source": "SRC-MRVL-001",
+      "confidence_level": "medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2028,
+      "technology": "CoWoS capacity and package scale",
+      "vendor": "TSMC",
+      "claimed_capability": "larger interposer/RDL configurations and capacity expansion",
+      "status": "expected; not confirmed",
+      "evidence_source": "SRC-TSMC-003",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2028,
+      "technology": "SoIC and hybrid bonding",
+      "vendor": "TSMC",
+      "claimed_capability": "finer-pitch 3D stacking and broader product adoption",
+      "status": "expected; not confirmed",
+      "evidence_source": "SRC-TSMC-001",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2028,
+      "technology": "Foveros Direct and EMIB",
+      "vendor": "Intel",
+      "claimed_capability": "combined 2.5D and 3D product and foundry enablement",
+      "status": "expected; not confirmed",
+      "evidence_source": "SRC-INTEL-001",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2028,
+      "technology": "HBM4",
+      "vendor": "JEDEC / memory vendors",
+      "claimed_capability": "2,048-bit interface and logic base-die generation",
+      "status": "expected; not confirmed",
+      "evidence_source": "SRC-JEDEC-001",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2028,
+      "technology": "CPO switch platforms",
+      "vendor": "NVIDIA / Broadcom / Marvell",
+      "claimed_capability": "optics adjacent to high-radix switching",
+      "status": "expected; not confirmed",
+      "evidence_source": "SRC-NVIDIA-002",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2028,
+      "technology": "UCIe",
+      "vendor": "UCIe Consortium",
+      "claimed_capability": "64 GT/s roadmap and 3D manageability",
+      "status": "expected; not confirmed",
+      "evidence_source": "SRC-UCIE-002",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2028,
+      "technology": "Glass substrate",
+      "vendor": "Intel and ecosystem",
+      "claimed_capability": "late-decade large-body substrate option",
+      "status": "expected; not confirmed",
+      "evidence_source": "SRC-INTEL-002",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2028,
+      "technology": "Marvell custom XPU packaging",
+      "vendor": "Marvell",
+      "claimed_capability": "advanced packaging, HBM attach and optical scale-up integration",
+      "status": "expected; not confirmed",
+      "evidence_source": "SRC-MRVL-001",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2029,
+      "technology": "CoWoS capacity and package scale",
+      "vendor": "TSMC",
+      "claimed_capability": "larger interposer/RDL configurations and capacity expansion",
+      "status": "expected; not confirmed",
+      "evidence_source": "SRC-TSMC-003",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2029,
+      "technology": "SoIC and hybrid bonding",
+      "vendor": "TSMC",
+      "claimed_capability": "finer-pitch 3D stacking and broader product adoption",
+      "status": "expected; not confirmed",
+      "evidence_source": "SRC-TSMC-001",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2029,
+      "technology": "Foveros Direct and EMIB",
+      "vendor": "Intel",
+      "claimed_capability": "combined 2.5D and 3D product and foundry enablement",
+      "status": "expected; not confirmed",
+      "evidence_source": "SRC-INTEL-001",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2029,
+      "technology": "HBM4",
+      "vendor": "JEDEC / memory vendors",
+      "claimed_capability": "2,048-bit interface and logic base-die generation",
+      "status": "expected; not confirmed",
+      "evidence_source": "SRC-JEDEC-001",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2029,
+      "technology": "CPO switch platforms",
+      "vendor": "NVIDIA / Broadcom / Marvell",
+      "claimed_capability": "optics adjacent to high-radix switching",
+      "status": "expected; not confirmed",
+      "evidence_source": "SRC-NVIDIA-002",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2029,
+      "technology": "UCIe",
+      "vendor": "UCIe Consortium",
+      "claimed_capability": "64 GT/s roadmap and 3D manageability",
+      "status": "expected; not confirmed",
+      "evidence_source": "SRC-UCIE-002",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2029,
+      "technology": "Glass substrate",
+      "vendor": "Intel and ecosystem",
+      "claimed_capability": "late-decade large-body substrate option",
+      "status": "expected; not confirmed",
+      "evidence_source": "SRC-INTEL-002",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2029,
+      "technology": "Marvell custom XPU packaging",
+      "vendor": "Marvell",
+      "claimed_capability": "advanced packaging, HBM attach and optical scale-up integration",
+      "status": "expected; not confirmed",
+      "evidence_source": "SRC-MRVL-001",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2030,
+      "technology": "CoWoS capacity and package scale",
+      "vendor": "TSMC",
+      "claimed_capability": "larger interposer/RDL configurations and capacity expansion",
+      "status": "speculative scenario",
+      "evidence_source": "SRC-TSMC-003",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2030,
+      "technology": "SoIC and hybrid bonding",
+      "vendor": "TSMC",
+      "claimed_capability": "finer-pitch 3D stacking and broader product adoption",
+      "status": "speculative scenario",
+      "evidence_source": "SRC-TSMC-001",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2030,
+      "technology": "Foveros Direct and EMIB",
+      "vendor": "Intel",
+      "claimed_capability": "combined 2.5D and 3D product and foundry enablement",
+      "status": "speculative scenario",
+      "evidence_source": "SRC-INTEL-001",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2030,
+      "technology": "HBM4",
+      "vendor": "JEDEC / memory vendors",
+      "claimed_capability": "2,048-bit interface and logic base-die generation",
+      "status": "speculative scenario",
+      "evidence_source": "SRC-JEDEC-001",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2030,
+      "technology": "CPO switch platforms",
+      "vendor": "NVIDIA / Broadcom / Marvell",
+      "claimed_capability": "optics adjacent to high-radix switching",
+      "status": "speculative scenario",
+      "evidence_source": "SRC-NVIDIA-002",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2030,
+      "technology": "UCIe",
+      "vendor": "UCIe Consortium",
+      "claimed_capability": "64 GT/s roadmap and 3D manageability",
+      "status": "speculative scenario",
+      "evidence_source": "SRC-UCIE-002",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2030,
+      "technology": "Glass substrate",
+      "vendor": "Intel and ecosystem",
+      "claimed_capability": "late-decade large-body substrate option",
+      "status": "speculative scenario",
+      "evidence_source": "SRC-INTEL-002",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    },
+    {
+      "year": 2030,
+      "technology": "Marvell custom XPU packaging",
+      "vendor": "Marvell",
+      "claimed_capability": "advanced packaging, HBM attach and optical scale-up integration",
+      "status": "speculative scenario",
+      "evidence_source": "SRC-MRVL-001",
+      "confidence_level": "low-medium",
+      "Marvell_relevance": "high",
+      "key_risk": "qualification, yield, capacity, cost or schedule may differ by configuration"
+    }
+  ]
+}
