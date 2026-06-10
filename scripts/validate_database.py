@@ -79,6 +79,47 @@ def main() -> int:
     figures = figure_data.get("figures", [])
     benchmarks = benchmark_data.get("benchmarks", [])
 
+    dashboard_files = [
+        "dashboard/index.html",
+        "dashboard/styles.css",
+        "dashboard/app.js",
+        "dashboard/dashboard_data.js",
+        "dashboard/README.md",
+        "scripts/build_dashboard.py",
+        "scripts/serve_dashboard.py",
+    ]
+    for relative in dashboard_files:
+        if not (ROOT / relative).exists():
+            ERRORS.append(f"dashboard: missing required file {relative}")
+
+    dashboard_data_path = ROOT / "dashboard/dashboard_data.js"
+    if dashboard_data_path.exists():
+        prefix = "window.DASHBOARD_DATA = "
+        raw = dashboard_data_path.read_text(encoding="utf-8")
+        if not raw.startswith(prefix) or not raw.rstrip().endswith(";"):
+            ERRORS.append("dashboard/dashboard_data.js: invalid data bundle wrapper")
+        else:
+            try:
+                dashboard_data = json.loads(raw[len(prefix):].strip().removesuffix(";"))
+                expected_counts = {
+                    "technologies": len(technologies),
+                    "vendors": len(vendors),
+                    "roadmap_items": len(roadmaps),
+                    "benchmarks": len(benchmarks),
+                }
+                for key, expected in expected_counts.items():
+                    actual = len(dashboard_data.get(key, []))
+                    if actual != expected:
+                        ERRORS.append(f"dashboard data: {key} has {actual} records; expected {expected}")
+            except json.JSONDecodeError as exc:
+                ERRORS.append(f"dashboard/dashboard_data.js: invalid JSON payload: {exc}")
+    dashboard_app_path = ROOT / "dashboard/app.js"
+    if dashboard_app_path.exists():
+        dashboard_app = dashboard_app_path.read_text(encoding="utf-8")
+        for feature in ["saveSession", "exportSession", "exportCsv", "togglePresentation", "roadmapChart", "scatterChart"]:
+            if feature not in dashboard_app:
+                ERRORS.append(f"dashboard/app.js: missing required dashboard function `{feature}`")
+
     source_ids = {item.get("source_id") for item in sources}
     figure_ids = {item.get("figure_id") for item in figures}
 
@@ -158,6 +199,8 @@ def main() -> int:
     for name in prompt_names:
         if name not in readme:
             ERRORS.append(f"README.md: missing refresh prompt `{name}`")
+    if "Executive presentation dashboard" not in readme or "scripts/build_dashboard.py" not in readme:
+        ERRORS.append("README.md: missing dashboard navigation or build instructions")
 
     check_links()
     check_claim_citations()

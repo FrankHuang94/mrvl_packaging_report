@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive executive dashboard for the Marvell advanced packaging intelligence database.">
+  <title>Marvell Advanced Packaging Executive Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-block">
+      <div class="eyebrow">Advanced Packaging Intelligence</div>
+      <h1>Executive Presentation Dashboard</h1>
+      <p id="dataStatus">Loading repository data...</p>
+    </div>
+    <div class="top-actions">
+      <label class="session-field">
+        <span>Session</span>
+        <input id="sessionName" value="Leadership Briefing" maxlength="80">
+      </label>
+      <button id="saveSession" class="button secondary">Save</button>
+      <button id="loadSession" class="button secondary">Load</button>
+      <button id="exportSession" class="button secondary">Export JSON</button>
+      <button id="presentationMode" class="button primary">Present</button>
+      <button id="printBriefing" class="button primary">Print / PDF</button>
+    </div>
+  </header>
+
+  <div class="app-shell">
+    <aside class="control-panel" id="controlPanel">
+      <div class="panel-heading">
+        <h2>Presentation Builder</h2>
+        <button id="resetDashboard" class="text-button">Reset</button>
+      </div>
+
+      <section class="control-section">
+        <h3>Audience preset</h3>
+        <div class="preset-grid" id="presetGrid">
+          <button data-preset="leadership" class="preset active">Leadership</button>
+          <button data-preset="engineering" class="preset">Engineering</button>
+          <button data-preset="strategy" class="preset">Strategy</button>
+          <button data-preset="corpdev" class="preset">Corp Dev</button>
+        </div>
+      </section>
+
+      <section class="control-section">
+        <h3>Filters</h3>
+        <label>
+          <span>Search</span>
+          <input id="searchFilter" type="search" placeholder="HBM, CPO, TSMC...">
+        </label>
+        <label>
+          <span>Technology category</span>
+          <select id="categoryFilter"><option value="all">All categories</option></select>
+        </label>
+        <label>
+          <span>Vendor category</span>
+          <select id="vendorCategoryFilter"><option value="all">All vendor categories</option></select>
+        </label>
+        <label>
+          <span>Minimum Marvell relevance: <strong id="relevanceValue">3</strong></span>
+          <input id="relevanceFilter" type="range" min="1" max="5" value="3">
+        </label>
+        <div class="range-pair">
+          <label><span>From year</span><select id="yearFrom"></select></label>
+          <label><span>To year</span><select id="yearTo"></select></label>
+        </div>
+      </section>
+
+      <section class="control-section">
+        <div class="section-row">
+          <h3>Briefing modules</h3>
+          <button id="selectAllModules" class="text-button">All</button>
+        </div>
+        <div id="moduleSelector" class="module-selector"></div>
+      </section>
+
+      <section class="control-section">
+        <h3>Display</h3>
+        <label class="check-row"><input id="showCaveats" type="checkbox" checked><span>Show evidence caveats</span></label>
+        <label class="check-row"><input id="compactTables" type="checkbox"><span>Compact tables</span></label>
+        <label class="check-row"><input id="darkCharts" type="checkbox"><span>Dark chart canvas</span></label>
+      </section>
+
+      <section class="control-section">
+        <h3>Export current view</h3>
+        <button id="exportCsv" class="button full secondary">Download visible table CSV</button>
+        <button id="copySummary" class="button full secondary">Copy executive summary</button>
+      </section>
+    </aside>
+
+    <main class="dashboard-main">
+      <nav class="view-tabs" aria-label="Dashboard views">
+        <button data-view="briefing" class="view-tab active">Briefing</button>
+        <button data-view="technology">Technology</button>
+        <button data-view="vendors">Vendors</button>
+        <button data-view="roadmap">Roadmap</button>
+        <button data-view="watchlist">Corp Dev</button>
+      </nav>
+      <div id="dashboardContent" aria-live="polite"></div>
+    </main>
+  </div>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script src="dashboard_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

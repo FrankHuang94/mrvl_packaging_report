@@ -83,6 +83,8 @@ def main() -> None:
         "",
         "## Executive navigation",
         "",
+        f"- {link('dashboard/index.html', 'Interactive executive presentation dashboard')}",
+        f"- {link('dashboard/README.md', 'Dashboard user guide')}",
         f"- {link('reports/executive_summary_for_marvell_leadership.md', 'Executive summary for Marvell leadership')}",
         f"- {link('reports/advanced_packaging_main_report.md', 'Advanced packaging main report')}",
         f"- {link('reports/marvell_xpu_implications.md', 'Marvell custom XPU implications')}",
@@ -158,6 +160,7 @@ def main() -> None:
         "",
         f"- {link('scripts/refresh_section_template.md', 'Section refresh workflow')}",
         f"- {link('scripts/refresh_full_database_template.md', 'Full database refresh workflow')}",
+        "- Run `python3 scripts/build_dashboard.py` after database changes.",
         "- Run `python3 scripts/validate_database.py`.",
         "- Run `python3 scripts/build_index.py` after every material update.",
     ])

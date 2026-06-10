@@ -8,6 +8,8 @@ An indexed, source-backed knowledge base and executive report on advanced semico
 
 ## Start here
 
+- [Executive presentation dashboard](dashboard/index.html)
+- [Dashboard user guide](dashboard/README.md)
 - [Generated index](index.md)
 - [Main report](reports/advanced_packaging_main_report.md)
 - [Executive summary](reports/executive_summary_for_marvell_leadership.md)
@@ -20,6 +22,16 @@ An indexed, source-backed knowledge base and executive report on advanced semico
 ## Repository operation
 
 The `.yaml` databases use JSON syntax, which is valid YAML 1.2. This permits dependency-free parsing with Python's standard library.
+
+### Use the executive dashboard
+
+Build the latest dashboard data and start a local server:
+
+```bash
+python3 scripts/serve_dashboard.py
+```
+
+Open `http://localhost:8000/dashboard/`. Choose an audience preset, apply technology/vendor/year filters, select the briefing modules to show, and use **Present** or **Print / PDF** for an executive presentation. Sessions can be saved in the browser or exported as JSON. The dashboard has no third-party runtime dependencies.
 
 ### Refresh the entire database
 
@@ -62,6 +74,7 @@ python3 scripts/validate_database.py
 ### Rebuild the index
 
 ```bash
+python3 scripts/build_dashboard.py
 python3 scripts/build_index.py
 ```
 
